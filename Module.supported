@@ -1,0 +1,2776 @@
+arch/arm64/crypto/aes-ce-blk
+arch/arm64/crypto/aes-ce-ccm
+arch/arm64/crypto/aes-ce-cipher
+arch/arm64/crypto/aes-neon-blk
+arch/arm64/crypto/crc32-arm64
+arch/arm64/crypto/ghash-ce
+arch/arm64/crypto/sha1-ce
+arch/arm64/crypto/sha2-ce
+arch/powerpc/crypto/sha1-powerpc
+arch/powerpc/crypto/md5-ppc
+arch/powerpc/kernel/rtas_flash
+arch/powerpc/kvm/kvm
+arch/powerpc/kvm/kvm-hv
+arch/powerpc/kvm/kvm-pr
+arch/powerpc/oprofile/oprofile
+arch/powerpc/platforms/powernv/opal-prd external
+arch/powerpc/platforms/pseries/hvcserver external
+arch/powerpc/platforms/pseries/scanlog external
+arch/powerpc/sysdev/rtc_cmos_setup
+arch/s390/appldata/appldata_mem
+arch/s390/appldata/appldata_net_sum
+arch/s390/appldata/appldata_os
+arch/s390/crypto/aes_s390
+arch/s390/crypto/des_s390
+arch/s390/crypto/ghash_s390
+arch/s390/crypto/prng
+arch/s390/crypto/sha1_s390
+arch/s390/crypto/sha256_s390
+arch/s390/crypto/sha512_s390
+arch/s390/crypto/sha_common
+arch/s390/kvm/kvm
+arch/s390/mm/cmm
+arch/s390/oprofile/oprofile
+arch/x86/crypto/ablk_helper
+arch/x86/crypto/aes-x86_64
+arch/x86/crypto/aesni-intel
+arch/x86/crypto/blowfish-x86_64
+arch/x86/crypto/camellia-aesni-avx-x86_64
+arch/x86/crypto/camellia-aesni-avx2
+arch/x86/crypto/camellia-x86_64
+arch/x86/crypto/cast5-avx-x86_64
+arch/x86/crypto/cast6-avx-x86_64
+arch/x86/crypto/chacha20-x86_64
+arch/x86/crypto/crc32-pclmul
+arch/x86/crypto/crc32c-intel
+arch/x86/crypto/crct10dif-pclmul
+arch/x86/crypto/des3_ede-x86_64
+arch/x86/crypto/ghash-clmulni-intel
+arch/x86/crypto/glue_helper
+arch/x86/crypto/poly1305-x86_64
+arch/x86/crypto/salsa20-x86_64
+arch/x86/crypto/serpent-avx-x86_64
+arch/x86/crypto/serpent-avx2
+arch/x86/crypto/serpent-sse2-x86_64
+arch/x86/crypto/sha1-ssse3
+arch/x86/crypto/sha256-ssse3
+arch/x86/crypto/sha512-ssse3
+arch/x86/crypto/sha-mb/sha1-mb
+arch/x86/crypto/twofish-avx-x86_64
+arch/x86/crypto/twofish-x86_64
+arch/x86/crypto/twofish-x86_64-3way
+arch/x86/ia32/ia32_aout
+arch/x86/kernel/cpu/mcheck/mce-inject
+arch/x86/kernel/cpu/microcode/microcode
+arch/x86/kernel/cpuid
+arch/x86/kernel/msr
+arch/x86/kvm/kvm
+arch/x86/kvm/kvm-amd
+arch/x86/kvm/kvm-intel
+arch/x86/oprofile/oprofile
+crypto/aead
+crypto/aes_generic
+crypto/af_alg
+crypto/algif_aead
+crypto/algif_hash
+crypto/algif_skcipher
+crypto/algif_rng
+crypto/ansi_cprng
+crypto/anubis
+crypto/arc4
+crypto/asymmetric_keys/asymmetric_keys
+crypto/asymmetric_keys/public_key
+crypto/asymmetric_keys/rsa
+crypto/asymmetric_keys/x509_key_parser
+crypto/async_tx/async_memcpy
+crypto/async_tx/async_pq
+crypto/async_tx/async_raid6_recov
+crypto/async_tx/async_tx
+crypto/async_tx/async_xor
+crypto/authenc
+crypto/authencesn
+crypto/blowfish_common
+crypto/blowfish_generic
+crypto/camellia_generic
+crypto/cast_common
+crypto/cast5_generic
+crypto/cast6_generic
+crypto/cbc
+crypto/ccm
+crypto/chacha20_generic
+crypto/chacha20poly1305
+crypto/chainiv
+crypto/cmac
+crypto/crc32
+crypto/crc32c_generic
+crypto/crct10dif_common
+crypto/crct10dif_generic
+crypto/cryptd
+crypto/crypto
+crypto/crypto_algapi
+crypto/crypto_blkcipher
+crypto/crypto_hash
+crypto/crypto_null
+crypto/crypto_wq
+crypto/cryptomgr
+crypto/ctr
+crypto/cts
+crypto/deflate
+crypto/des_generic
+crypto/dh_generic.ko
+crypto/drbg.ko
+crypto/ecb
+crypto/echainiv
+crypto/eseqiv
+crypto/fcrypt
+crypto/gcm
+crypto/gf128mul
+crypto/ghash-generic
+crypto/hmac
+crypto/jitterentropy_rng
+crypto/keywrap
+crypto/khazad
+crypto/krng
+crypto/lrw
+crypto/lzo
+crypto/mcryptd
+crypto/md4
+crypto/md5
+crypto/michael_mic
+crypto/pcbc
+crypto/pcompress
+crypto/pcrypt
+crypto/poly1305_generic
+crypto/rmd128
+crypto/rmd160
+crypto/rmd256
+crypto/rmd320
+crypto/rng
+crypto/rsa_generic
+crypto/salsa20_generic
+crypto/seed
+crypto/seqiv
+crypto/serpent_generic
+crypto/sha1_generic
+crypto/sha256_generic
+crypto/sha512_generic
+crypto/tcrypt
+crypto/tea
+crypto/tgr192
+crypto/twofish_common
+crypto/twofish_generic
+crypto/crypto_user
+crypto/vmac
+crypto/wp512
+crypto/xcbc
+crypto/xor
+crypto/xts
+crypto/zlib
+drivers/acpi/ac
+drivers/acpi/acpi_extlog
+drivers/acpi/acpi_ipmi
+drivers/acpi/acpi_pad
+drivers/acpi/apei/einj
+drivers/acpi/battery
+drivers/acpi/button
+drivers/acpi/custom_method no
+drivers/acpi/ec_sys no
+drivers/acpi/apei/erst-dbg
+drivers/acpi/fan
+drivers/acpi/hed
+drivers/acpi/nfit
+drivers/acpi/processor
+drivers/acpi/sbs
+drivers/acpi/sbshc
+drivers/acpi/thermal
+drivers/acpi/video
+drivers/ata/acard-ahci
+drivers/ata/ahci
+drivers/ata/ahci_ceva
+drivers/ata/ahci_mvebu
+drivers/ata/ahci_qoriq
+drivers/ata/ahci_platform
+drivers/ata/ahci_seattle
+drivers/ata/ahci_tegra no
+drivers/ata/libahci_platform
+drivers/ata/ahci_xgene
+drivers/ata/ata_generic
+drivers/ata/ata_piix
+drivers/ata/libahci
+drivers/ata/libahci_platform
+drivers/ata/libata
+drivers/ata/pata_acpi
+drivers/ata/pata_ali
+drivers/ata/pata_amd
+drivers/ata/pata_arasan_cf no
+drivers/ata/pata_artop
+drivers/ata/pata_atiixp
+drivers/ata/pata_atp867x
+drivers/ata/pata_cmd640
+drivers/ata/pata_cmd64x
+drivers/ata/pata_cypress
+drivers/ata/pata_efar
+drivers/ata/pata_hpt366
+drivers/ata/pata_hpt37x
+drivers/ata/pata_hpt3x2n
+drivers/ata/pata_hpt3x3
+drivers/ata/pata_it8213
+drivers/ata/pata_it821x
+drivers/ata/pata_jmicron
+drivers/ata/pata_marvell
+drivers/ata/pata_mpiix
+drivers/ata/pata_netcell
+drivers/ata/pata_ninja32
+drivers/ata/pata_ns87410
+drivers/ata/pata_ns87415
+drivers/ata/pata_oldpiix
+drivers/ata/pata_opti
+drivers/ata/pata_optidma
+drivers/ata/pata_pdc2027x
+drivers/ata/pata_pdc202xx_old
+drivers/ata/pata_piccolo no
+drivers/ata/pata_radisys
+drivers/ata/pata_rdc
+drivers/ata/pata_rz1000
+drivers/ata/pata_sch
+drivers/ata/pata_serverworks
+drivers/ata/pata_sil680
+drivers/ata/pata_sis
+drivers/ata/pata_sl82c105
+drivers/ata/pata_triflex
+drivers/ata/pata_via
+drivers/ata/pdc_adma
+drivers/ata/sata_inic162x
+drivers/ata/sata_mv
+drivers/ata/sata_nv
+drivers/ata/sata_promise
+drivers/ata/sata_qstor
+drivers/ata/sata_sil
+drivers/ata/sata_sil24
+drivers/ata/sata_sis
+drivers/ata/sata_svw
+drivers/ata/sata_sx4
+drivers/ata/sata_uli
+drivers/ata/sata_via
+drivers/ata/sata_vsc
+drivers/atm/* no
+drivers/auxdisplay/cfag12864b
+drivers/auxdisplay/cfag12864bfb
+drivers/auxdisplay/ks0108
+drivers/base/regmap/regmap-i2c
+drivers/base/regmap/regmap-mmio
+drivers/bcma/bcma no
+drivers/block/DAC960
+drivers/block/aoe/aoe
+drivers/block/brd
+drivers/block/cciss no
+drivers/block/cryptoloop
+drivers/block/floppy
+drivers/block/loop
+drivers/block/mtip32xx/mtip32xx
+drivers/block/nbd
+drivers/block/null_blk
+drivers/block/osdblk no
+drivers/block/pktcdvd
+drivers/block/rbd
+drivers/block/skd
+drivers/block/sx8
+drivers/block/umem
+drivers/block/virtio_blk
+drivers/block/xen-blkback/xen-blkback
+drivers/block/xen-blkfront
+drivers/block/zram/zram
+drivers/bluetooth/ath3k
+drivers/bluetooth/bcm203x
+drivers/bluetooth/bfusb
+drivers/bluetooth/bpa10x
+drivers/bluetooth/btbcm
+drivers/bluetooth/btintel
+drivers/bluetooth/btmrvl
+drivers/bluetooth/btmrvl_sdio
+drivers/bluetooth/btqca
+drivers/bluetooth/btrtl
+drivers/bluetooth/btsdio
+drivers/bluetooth/btusb
+drivers/bluetooth/btwilink no
+drivers/bluetooth/hci_uart
+drivers/bluetooth/hci_vhci
+drivers/dax/dax
+drivers/dax/dax_pmem
+drivers/cdrom/cdrom
+drivers/char/agp/agpgart
+drivers/char/agp/amd64-agp
+drivers/char/agp/intel-agp
+drivers/char/agp/intel-gtt
+drivers/char/agp/sis-agp
+drivers/char/agp/via-agp
+drivers/char/applicom
+drivers/char/bsr
+drivers/char/crasher
+drivers/char/hangcheck-timer
+drivers/char/hw_random/amd-rng
+drivers/char/hw_random/bcm2835-rng
+drivers/char/hw_random/cavium-rng
+drivers/char/hw_random/cavium-rng-vf.ko
+drivers/char/hw_random/exynos-rng no
+drivers/char/hw_random/intel-rng
+drivers/char/hw_random/iproc-rng200
+drivers/char/hw_random/msm-rng
+drivers/char/hw_random/rng-core
+drivers/char/hw_random/tpm-rng
+drivers/char/hw_random/via-rng
+drivers/char/hw_random/virtio-rng
+drivers/char/hw_random/xgene-rng
+drivers/char/i8k
+drivers/char/ipmi/ipmi_devintf
+drivers/char/ipmi/ipmi_msghandler
+drivers/char/ipmi/ipmi_powernv external
+drivers/char/ipmi/ipmi_poweroff
+drivers/char/ipmi/ipmi_si
+drivers/char/ipmi/ipmi_ssif
+drivers/char/ipmi/ipmi_watchdog
+drivers/char/lp
+drivers/char/mwave/mwave
+drivers/char/nvram
+drivers/char/ppdev
+drivers/char/raw
+drivers/char/tlclk no
+drivers/char/tpm/st33zp24/tpm_st33zp24_i2c
+drivers/char/tpm/st33zp24/tpm_st33zp24
+drivers/char/tpm/tpm
+drivers/char/tpm/tpm_atmel
+drivers/char/tpm/tpm_crb
+drivers/char/tpm/tpm_bios
+drivers/char/tpm/tpm_i2c_atmel
+drivers/char/tpm/tpm_i2c_infineon
+drivers/char/tpm/tpm_i2c_nuvoton
+drivers/char/tpm/tpm_infineon
+drivers/char/tpm/tpm_nsc
+drivers/char/tpm/tpm_tis
+drivers/char/tpm/tpm_tis_core
+drivers/char/tpm/tpm_vtpm_proxy no
+drivers/char/tpm/tpm_xenu
+drivers/char/tpm/xen-tpmfront
+drivers/char/uv_mmtimer external
+drivers/char/virtio_console
+drivers/char/xillybus/*
+drivers/clk/* no
+drivers/cpufreq/acpi-cpufreq
+drivers/cpufreq/arm_big_little_dt no
+drivers/cpufreq/arm_big_little no
+drivers/cpufreq/amd_freq_sensitivity
+drivers/cpufreq/bcm2835-cpufreq
+drivers/cpufreq/cpufreq_conservative
+drivers/cpufreq/cpufreq-dt
+drivers/cpufreq/cpufreq-dt-platdev
+drivers/cpufreq/cpufreq_ondemand
+drivers/cpufreq/cpufreq_powersave
+drivers/cpufreq/cpufreq_stats
+drivers/cpufreq/cpufreq_userspace
+drivers/cpufreq/cppc_cpufreq
+drivers/cpufreq/freq_table
+drivers/cpufreq/hisi-acpu-cpufreq
+drivers/cpufreq/pcc-cpufreq
+drivers/cpufreq/powernow-k8
+drivers/crypto/caam/*
+drivers/crypto/ccp
+drivers/crypto/ccp/ccp-crypto
+drivers/crypto//cavium/cpt/cptpf
+drivers/crypto//cavium/cpt/cptvf
+drivers/crypto/chelsio/chcr
+drivers/crypto/marvell/marvell-cesa
+drivers/crypto/padlock-aes
+drivers/crypto/padlock-sha
+drivers/crypto/qat/qat_common/intel_qat external
+drivers/crypto/qat/qat_c3xxxvf/qat_c3xxxvf external
+drivers/crypto/qat/qat_c62xvf/qat_c62xvf external
+drivers/crypto/qat/qat_dh895xcc/qat_c3xxx external
+drivers/crypto/qat/qat_dh895xcc/qat_c62x external
+drivers/crypto/qat/qat_dh895xcc/qat_dh895xcc external
+drivers/crypto/qat/qat_dh895xccvf/qat_dh895xccvf external
+drivers/crypto/qce
+drivers/crypto/qce/qcrypto
+drivers/crypto/rockchip/rk_crypto
+drivers/crypto/s5p-sss no
+drivers/crypto/vmx/vmx-crypto
+drivers/dca/dca
+drivers/devfreq/governor_performance
+drivers/devfreq/governor_powersave
+drivers/devfreq/governor_simpleondemand
+drivers/devfreq/governor_userspace
+drivers/devfreq/rk3399_dmc
+drivers/devfreq/event/rockchip-dfi
+drivers/dma/bcm2835-dma
+drivers/dma/dmatest
+drivers/dma/dw/dw_dmac_core
+drivers/dma/dw/dw_dmac_pci
+drivers/dma/hsu/hsu_dma no
+drivers/dma/idma64
+drivers/dma/ioat/ioatdma
+drivers/dma/qcom/bam_dma
+drivers/dma/qcom/hdma
+drivers/dma/qcom/hdma_mgmt
+drivers/dma/xgene-dma
+drivers/dma/virt-dma
+drivers/edac/amd64_edac_mod
+drivers/edac/cpc925_edac
+drivers/edac/e752x_edac
+drivers/edac/edac_core
+drivers/edac/edac_mce_amd
+drivers/edac/i3000_edac
+drivers/edac/i3200_edac
+drivers/edac/i5000_edac
+drivers/edac/i5100_edac
+drivers/edac/i5400_edac
+drivers/edac/i7300_edac
+drivers/edac/i7core_edac
+drivers/edac/i82975x_edac
+drivers/edac/ie31200_edac
+drivers/edac/mce_amd_inj
+drivers/edac/sb_edac
+drivers/edac/thunderx_edac
+drivers/edac/x38_edac
+drivers/edac/xgene_edac
+drivers/edac/skx_edac
+drivers/extcon/extcon
+drivers/extcon/extcon-gpio no
+drivers/extcon/extcon-sm5502 no
+drivers/firewire/firewire_core
+drivers/firewire/firewire_net
+drivers/firewire/firewire_ohci
+drivers/firewire/firewire_sbp2
+drivers/firewire/nosy
+drivers/firmware/dcdbas external
+drivers/firmware/dell_rbu external
+drivers/firmware/dmi-sysfs
+drivers/firmware/edd
+drivers/firmware/efi/capsule-loader
+drivers/firmware/efi/efivars
+drivers/firmware/iscsi_ibft
+drivers/fpga/fpga-bridge
+drivers/fpga/fpga-mgr
+drivers/fpga/fpga-region
+drivers/fpga/zynq-fpga
+drivers/gpio/gpio-104-idio-16 no
+drivers/gpio/gpio-74xx-mmio no
+drivers/gpio/gpio-adnp no
+drivers/gpio/gpio-adp5588 no
+drivers/gpio/gpio-amd8111 no
+drivers/gpio/gpio-amdpt
+drivers/gpio/gpio-dln2 no
+drivers/gpio/gpio-dwapb
+drivers/gpio/gpio-f7188x no
+drivers/gpio/gpio-generic
+drivers/gpio/gpio-grgpio no
+drivers/gpio/gpio-ich
+drivers/gpio/gpio-it87 no
+drivers/gpio/gpio-lp3943 no
+drivers/gpio/gpio-max7300 no
+drivers/gpio/gpio-max730x
+drivers/gpio/gpio-max732x
+drivers/gpio/gpio-mcp23s08
+drivers/gpio/gpio-ml-ioh no
+drivers/gpio/gpio-pca953x
+drivers/gpio/gpio-pcf857x
+drivers/gpio/gpio-sch311x no
+drivers/gpio/gpio-sch no
+drivers/gpio/gpio-syscon no
+drivers/gpio/gpio-viperboard no
+drivers/gpio/gpio-vx855 no
+drivers/gpio/gpio-xgene-sb
+drivers/gpio/gpio-xilinx
+drivers/gpio/gpio-xlp
+drivers/gpio/gpio-zynq
+drivers/gpu/drm/amd/amdgpu/amdgpu no
+drivers/gpu/drm/amd/amdkfd/amdkfd no
+drivers/gpu/drm/ast/ast
+drivers/gpu/drm/bochs/bochs-drm
+drivers/gpu/drm/bridge/* no
+drivers/gpu/drm/cirrus/cirrus
+drivers/gpu/drm/drm
+drivers/gpu/drm/drm_kms_helper
+drivers/gpu/drm/drm_usb
+drivers/gpu/drm/gma500/gma500_gfx no
+drivers/gpu/drm/hisilicon/hibmc/hibmc-drm
+drivers/gpu/drm/i2c/ch7006
+drivers/gpu/drm/i2c/sil164
+drivers/gpu/drm/i2c/adv7511 no
+drivers/gpu/drm/i810/i810
+drivers/gpu/drm/i915/i915
+drivers/gpu/drm/mga/mga
+drivers/gpu/drm/mgag200/mgag200
+drivers/gpu/drm/msm no
+drivers/gpu/drm/nouveau/nouveau no
+drivers/gpu/drm/qxl/qxl
+drivers/gpu/drm/r128/r128
+drivers/gpu/drm/radeon/radeon
+drivers/gpu/drm/panel/* no
+drivers/gpu/drm/savage/savage no
+drivers/gpu/drm/sis/sis no
+drivers/gpu/drm/tdfx/tdfx
+drivers/gpu/drm/tegra/* no
+drivers/gpu/drm/ttm/ttm
+drivers/gpu/drm/udl/udl
+drivers/gpu/drm/vc4/vc4
+drivers/gpu/drm/vgem/vgem
+drivers/gpu/drm/via/via no
+drivers/gpu/drm/virtio-gpu
+drivers/gpu/drm/vmwgfx/vmwgfx
+drivers/gpu/host1x no
+drivers/hid/hid
+drivers/hid/hid-a4tech
+drivers/hid/hid-apple
+drivers/hid/hid-appleir.ko no
+drivers/hid/hid-aureal.ko no
+drivers/hid/hid-axff.ko no
+drivers/hid/hid-belkin
+drivers/hid/hid-betopff no
+drivers/hid/hid-cherry
+drivers/hid/hid-chicony
+drivers/hid/hid-corsair no
+drivers/hid/hid-cp2112 no
+drivers/hid/hid-cypress
+drivers/hid/hid-dr no
+drivers/hid/hid-elecom.ko
+drivers/hid/hid-elo.ko
+drivers/hid/hid-emsff.ko no
+drivers/hid/hid-ezkey
+drivers/hid/hid-gaff no
+drivers/hid/hid-gembird no
+drivers/hid/hid-generic
+drivers/hid/hid-gfrm no
+drivers/hid/hid-gyration no
+drivers/hid/hid-gt683r no
+drivers/hid/hid-holtek-kbd.ko
+drivers/hid/hid-holtek-mouse.ko
+drivers/hid/hid-holtekff.ko no
+drivers/hid/hid-huion.ko
+drivers/hid/hid-hyperv external
+drivers/hid/hid-icade.ko no
+drivers/hid/hid-kensington
+drivers/hid/hid-keytouch.ko
+drivers/hid/hid-kye
+drivers/hid/hid-lcpower.ko no
+drivers/hid/hid-lenovo
+drivers/hid/hid-logitech
+drivers/hid/hid-logitech-dj.ko
+drivers/hid/hid-logitech-hidpp
+drivers/hid/hid-magicmouse.ko
+drivers/hid/hid-microsoft
+drivers/hid/hid-monterey
+drivers/hid/hid-multitouch.ko
+drivers/hid/hid-ntrig
+drivers/hid/hid-ortek.ko
+drivers/hid/hid-penmount no
+drivers/hid/hid-petalynx no
+drivers/hid/hid-picolcd.ko no
+drivers/hid/hid-pl no
+drivers/hid/hid-plantronics no
+drivers/hid/hid-primax.ko
+drivers/hid/hid-prodikeys.ko no
+drivers/hid/hid-rmi no
+drivers/hid/hid-roccat-arvo.ko
+drivers/hid/hid-roccat-common.ko
+drivers/hid/hid-roccat-isku.ko
+drivers/hid/hid-roccat-kone.ko
+drivers/hid/hid-roccat-koneplus.ko
+drivers/hid/hid-roccat-konepure.ko
+drivers/hid/hid-roccat-kovaplus.ko
+drivers/hid/hid-roccat-lua.ko
+drivers/hid/hid-roccat-pyra.ko
+drivers/hid/hid-roccat-ryos no
+drivers/hid/hid-roccat-savu.ko
+drivers/hid/hid-roccat.ko
+drivers/hid/hid-saitek.ko no
+drivers/hid/hid-samsung
+drivers/hid/hid-sensor-custom no
+drivers/hid/hid-sensor-hub.ko no
+drivers/hid/hid-sjoy no
+drivers/hid/hid-sony
+drivers/hid/hid-speedlink.ko
+drivers/hid/hid-steelseries.ko no
+drivers/hid/hid-sunplus
+drivers/hid/hid-thingm.ko no
+drivers/hid/hid-tivo.ko
+drivers/hid/hid-tmff no
+drivers/hid/hid-topseed no
+drivers/hid/hid-twinhan no
+drivers/hid/hid-uclogic.ko no
+drivers/hid/hid-wacom
+drivers/hid/hid-waltop.ko no
+drivers/hid/hid-wiimote.ko no
+drivers/hid/hid-xinmo.ko no
+drivers/hid/hid-zpff no
+drivers/hid/hid-zydacron.ko no
+drivers/hid/i2c-hid/i2c-hid.ko
+drivers/hid/uhid.ko
+drivers/hid/usbhid/usbhid
+drivers/hid/wacom
+drivers/hsi/clients/hsi_char no
+drivers/hsi/hsi no
+drivers/hv/hv_balloon external
+drivers/hv/hv_utils external
+drivers/hv/hv_vmbus external
+drivers/hwmon/acpi_power_meter
+drivers/hwmon/coretemp
+drivers/hwmon/fam15h_power
+drivers/hwmon/hwmon
+drivers/hwmon/hwmon-vid
+drivers/hwmon/i5k_amb
+drivers/hwmon/ibmaem external
+drivers/hwmon/ibmpex external
+drivers/hwmon/ibmpowernv external
+drivers/hwmon/jc42
+drivers/hwmon/k10temp
+drivers/hwmon/nct6775
+drivers/hwmon/smsc47b397
+drivers/hwmon/w83627ehf
+drivers/hwmon/* no
+drivers/hwspinlock/hwspinlock_core
+drivers/hwspinlock/qcom_hwspinlock
+drivers/hwtracing/intel_th/intel_th_gth external
+drivers/hwtracing/intel_th/intel_th.ko external
+drivers/hwtracing/intel_th/intel_th_msu external
+drivers/hwtracing/intel_th/intel_th_pci external
+drivers/hwtracing/intel_th/intel_th_pti external
+drivers/hwtracing/intel_th/intel_th_sth external
+drivers/hwtracing/stm/dummy_stm external
+drivers/hwtracing/stm/stm_console external
+drivers/hwtracing/stm/stm_core external
+drivers/idle/i7300_idle no
+drivers/i2c/algos/i2c-algo-bit
+drivers/i2c/busses/i2c-ali1535
+drivers/i2c/busses/i2c-ali1563
+drivers/i2c/busses/i2c-ali15x3
+drivers/i2c/busses/i2c-amd756
+drivers/i2c/busses/i2c-amd756-s4882
+drivers/i2c/busses/i2c-amd8111
+drivers/i2c/busses/i2c-bcm2835
+drivers/i2c/busses/i2c-bcm-iproc
+drivers/i2c/busses/i2c-cadence
+drivers/i2c/busses/i2c-cros-ec-tunnel no
+drivers/i2c/busses/i2c-diolan-u2c
+drivers/i2c/busses/i2c-designware
+drivers/i2c/busses/i2c-designware-core
+drivers/i2c/busses/i2c-designware-pci
+drivers/i2c/busses/i2c-designware-platform
+drivers/i2c/busses/i2c-dln2
+drivers/i2c/busses/i2c-i801
+drivers/i2c/busses/i2c-imx
+drivers/i2c/busses/i2c-isch
+drivers/i2c/busses/i2c-ismt
+drivers/i2c/busses/i2c-mt65xx no
+drivers/i2c/busses/i2c-mt8173 no
+drivers/i2c/busses/i2c-mv64xxx
+drivers/i2c/busses/i2c-nforce2
+drivers/i2c/busses/i2c-nforce2-s4985
+drivers/i2c/busses/i2c-opal external
+drivers/i2c/busses/i2c-parport
+drivers/i2c/busses/i2c-parport-light
+drivers/i2c/busses/i2c-piix4
+drivers/i2c/busses/i2c-qup
+drivers/i2c/busses/i2c-rk3x
+drivers/i2c/busses/i2c-robotfuzz-osif
+drivers/i2c/busses/i2c-scmi
+drivers/i2c/busses/i2c-sis5595
+drivers/i2c/busses/i2c-sis630
+drivers/i2c/busses/i2c-sis96x
+drivers/i2c/busses/i2c-tegra no
+drivers/i2c/busses/i2c-xgene-slimpro
+drivers/i2c/busses/i2c-xlp9xx.ko
+drivers/i2c/busses/i2c-taos-evm
+drivers/i2c/busses/i2c-tiny-usb
+drivers/i2c/busses/i2c-thunderx
+drivers/i2c/busses/i2c-viapro
+drivers/i2c/busses/i2c-viperboard
+drivers/i2c/i2c-core
+drivers/i2c/i2c-dev
+drivers/i2c/i2c-mux
+drivers/i2c/i2c-smbus
+drivers/i2c/i2c-stub
+drivers/i2c/muxes/i2c-arb-gpio-challenge no
+drivers/i2c/muxes/i2c-mux-gpio
+drivers/i2c/muxes/i2c-mux-pca9541
+drivers/i2c/muxes/i2c-mux-pca954x
+drivers/i2c/muxes/i2c-mux-reg
+drivers/infiniband/core/ib_addr
+drivers/infiniband/core/ib_cm
+drivers/infiniband/core/ib_core
+drivers/infiniband/core/ib_mad
+drivers/infiniband/core/ib_sa
+drivers/infiniband/core/ib_ucm
+drivers/infiniband/core/ib_umad
+drivers/infiniband/core/ib_uverbs
+drivers/infiniband/core/iw_cm
+drivers/infiniband/core/rdma_cm
+drivers/infiniband/core/rdma_ucm
+drivers/infiniband/hw/amso1100/iw_c2
+drivers/infiniband/hw/bnxt_re/bnxt_re
+drivers/infiniband/hw/cxgb3/iw_cxgb3
+drivers/infiniband/hw/cxgb4/iw_cxgb4
+drivers/infiniband/hw/hns/hns-roce
+drivers/infiniband/hw/i40iw/i40iw
+drivers/infiniband/hw/ipath/ib_ipath
+drivers/infiniband/hw/mlx4/mlx4_ib
+drivers/infiniband/hw/mlx5/mlx5_ib
+drivers/infiniband/hw/mthca/ib_mthca
+drivers/infiniband/hw/nes/iw_nes
+drivers/infiniband/hw/ocrdma/ocrdma.ko no
+drivers/infiniband/hw/qedr/qedr
+drivers/infiniband/hw/qib/ib_qib
+drivers/infiniband/hw/usnic/usnic_verbs.ko
+drivers/infiniband/sw/rdmavt/rdmavt
+drivers/infiniband/sw/rxe/rdma_rxe.ko
+drivers/infiniband/ulp/ipoib/ib_ipoib
+drivers/infiniband/ulp/iser/ib_iser
+drivers/infiniband/ulp/isert/ib_isert.ko
+drivers/infiniband/ulp/srp/ib_srp
+drivers/infiniband/ulp/srpt/ib_srpt
+drivers/input/evbug
+drivers/input/ff-memless
+drivers/input/input-polldev
+drivers/input/joydev
+drivers/input/joystick/* no
+drivers/input/keyboard/adp5588-keys
+drivers/input/keyboard/adp5589-keys no
+drivers/input/keyboard/cap11xx no
+drivers/input/keyboard/cros_ec_keyb.ko no
+drivers/input/keyboard/gpio_keys
+drivers/input/keyboard/gpio_keys_polled no
+drivers/input/keyboard/lm8323
+drivers/input/keyboard/lm8333 no
+drivers/input/keyboard/matrix_keypad
+drivers/input/keyboard/max7359_keypad
+drivers/input/keyboard/mcs_touchkey no
+drivers/input/keyboard/mpr121_touchkey no
+drivers/input/keyboard/newtonkbd
+drivers/input/keyboard/opencores-kbd
+drivers/input/keyboard/qt1070 no
+drivers/input/keyboard/qt2160 no
+drivers/input/keyboard/sunkbd
+drivers/input/keyboard/tca6416-keypad no
+drivers/input/keyboard/tca8418_keypad no
+drivers/input/keyboard/tegra-kbc no
+drivers/input/keyboard/xtkbd
+drivers/input/matrix-keymap
+drivers/input/misc/ad714x no
+drivers/input/misc/ad714x-i2c no
+drivers/input/misc/adxl34x no
+drivers/input/misc/adxl34x-i2c no
+drivers/input/misc/adxl34x-spi no
+drivers/input/misc/apanel
+drivers/input/misc/ati_remote2
+drivers/input/misc/atlas_btns
+drivers/input/misc/cm109
+drivers/input/misc/cma3000_d0x no
+drivers/input/misc/cma3000_d0x_i2c no
+drivers/input/misc/da9063_onkey no
+drivers/input/misc/drv26* no
+drivers/input/misc/ideapad_slidebar no
+drivers/input/misc/keyspan_remote
+drivers/input/misc/pcf8574_keypad no
+drivers/input/misc/pcspkr
+drivers/input/misc/powermate
+drivers/input/misc/regulator-haptic no
+drivers/input/misc/rotary_encoder
+drivers/input/misc/soc_button_array no
+drivers/input/misc/uinput
+drivers/input/serio/userio no
+drivers/input/misc/xen-kbdfront
+drivers/input/misc/yealink
+drivers/input/mouse/appletouch
+drivers/input/mouse/bcm5974
+drivers/input/mouse/cyapa no
+drivers/input/mouse/cyapatp no
+drivers/input/mouse/elan_i2c no
+drivers/input/mouse/gpio_mouse
+drivers/input/mouse/sermouse
+drivers/input/mouse/synaptics_i2c
+drivers/input/mouse/synaptics_usb
+drivers/input/mouse/vsxxxaa
+drivers/input/serio/apbps2 no
+drivers/input/serio/altera_ps2 no
+drivers/input/serio/ct82c710
+drivers/input/serio/hyperv-keyboard external
+drivers/input/serio/parkbd
+drivers/input/serio/pcips2
+drivers/input/serio/ps2mult no
+drivers/input/serio/serio_raw
+drivers/input/serio/serport
+drivers/input/serio/xilinx_ps2
+drivers/input/sparse-keymap
+drivers/input/tablet/acecad
+drivers/input/tablet/aiptek
+drivers/input/tablet/gtco
+drivers/input/tablet/hanwang no
+drivers/input/tablet/kbtab
+drivers/input/tablet/wacom_serial4 no
+drivers/input/touchscreen/ad7879
+drivers/input/touchscreen/ad7879-i2c
+drivers/input/touchscreen/atmel_mxt_ts no
+drivers/input/touchscreen/bu21013_ts no
+drivers/input/touchscreen/cy8ctmg110_ts no
+drivers/input/touchscreen/eeti_ts
+drivers/input/touchscreen/elants_i2c no
+drivers/input/touchscreen/ft6236 no
+drivers/input/touchscreen/goodix no
+drivers/input/touchscreen/max11801_ts no
+drivers/input/touchscreen/mcs5000_ts
+drivers/input/touchscreen/mk712
+drivers/input/touchscreen/rohm_bu21023 no
+drivers/input/touchscreen/st1232 no
+drivers/input/touchscreen/sur40 no
+drivers/input/touchscreen/sx8654 no
+drivers/input/touchscreen/tps6507x-ts no
+drivers/input/touchscreen/tsc2004 no
+drivers/input/touchscreen/tsc2007 no
+drivers/input/touchscreen/tsc200x-core no
+drivers/input/touchscreen/usbtouchscreen
+drivers/input/touchscreen/wdt87xx_i2c no
+drivers/input/touchscreen/wm97xx-ts
+drivers/input/touchscreen/zforce_ts no
+drivers/iommu/amd_iommu_v2
+drivers/ipack/carriers/tpci200 no
+drivers/ipack/devices/ipoctal no
+drivers/ipack/ipack no
+drivers/isdn/capi/capi
+drivers/isdn/capi/capidrv
+drivers/isdn/capi/kernelcapi
+drivers/isdn/divert/dss1_divert no
+drivers/isdn/gigaset/bas_gigaset
+drivers/isdn/gigaset/gigaset
+drivers/isdn/gigaset/ser_gigaset
+drivers/isdn/gigaset/usb_gigaset
+drivers/isdn/hardware/avm/b1
+drivers/isdn/hardware/avm/b1dma
+drivers/isdn/hardware/avm/b1pci
+drivers/isdn/hardware/avm/c4
+drivers/isdn/hardware/avm/t1pci
+drivers/isdn/hardware/eicon/diva_idi
+drivers/isdn/hardware/eicon/diva_mnt
+drivers/isdn/hardware/eicon/divacapi
+drivers/isdn/hardware/eicon/divadidd
+drivers/isdn/hardware/eicon/divas
+drivers/isdn/hardware/mISDN/avmfritz no
+drivers/isdn/hardware/mISDN/hfcmulti
+drivers/isdn/hardware/mISDN/hfcpci
+drivers/isdn/hardware/mISDN/hfcsusb no
+drivers/isdn/hardware/mISDN/mISDNinfineon no
+drivers/isdn/hardware/mISDN/mISDNipac no
+drivers/isdn/hardware/mISDN/mISDNisar no
+drivers/isdn/hardware/mISDN/netjet no
+drivers/isdn/hardware/mISDN/speedfax no
+drivers/isdn/hardware/mISDN/w6692 no
+drivers/isdn/hisax/hfc4s8s_l1
+drivers/isdn/hisax/hfc_usb
+drivers/isdn/hisax/hisax
+drivers/isdn/hisax/hisax_fcpcipnp
+drivers/isdn/hisax/hisax_isac
+drivers/isdn/hisax/hisax_st5481
+drivers/isdn/hysdn/hysdn
+drivers/isdn/i4l/isdn
+drivers/isdn/i4l/isdn_bsdcomp
+drivers/isdn/i4l/isdnhdlc
+drivers/isdn/mISDN/l1oip
+drivers/isdn/mISDN/mISDN_core
+drivers/isdn/mISDN/mISDN_dsp
+drivers/leds/dell-led no
+drivers/leds/led-class
+drivers/leds/led-class-flash
+drivers/leds/leds-bd2802 no
+drivers/leds/leds-blinkm no
+drivers/leds/leds-clevo-mail
+drivers/leds/leds-gpio
+drivers/leds/leds-lm3530 no
+drivers/leds/leds-lm355x no
+drivers/leds/leds-lm3642 no
+drivers/leds/leds-lp3944 no
+drivers/leds/leds-lp5521 no
+drivers/leds/leds-lp5523 no
+drivers/leds/leds-lp5562 no
+drivers/leds/leds-lp55xx-common no
+drivers/leds/leds-lp8501 no
+drivers/leds/leds-lp8860 no
+drivers/leds/leds-lt3593 no
+drivers/leds/leds-menf21bmc no
+drivers/leds/leds-pca9532
+drivers/leds/leds-pca955x
+drivers/leds/leds-pca963x no
+drivers/leds/leds-powernv external
+drivers/leds/leds-pwm no
+drivers/leds/leds-ss4200 no
+drivers/leds/leds-tca6507 no
+drivers/leds/trigger/ledtrig-backlight no
+drivers/leds/trigger/ledtrig-camera no
+drivers/leds/trigger/ledtrig-default-on
+drivers/leds/trigger/ledtrig-gpio no
+drivers/leds/trigger/ledtrig-heartbeat
+drivers/leds/trigger/ledtrig-oneshot no
+drivers/leds/trigger/ledtrig-timer
+drivers/leds/trigger/ledtrig-transient no
+drivers/lightnvm/gennvm
+drivers/lightnvm/rrpc
+drivers/mailbox/mailbox-xgene-slimpro
+drivers/md/bcache/bcache
+drivers/md/dm-bio-prison
+drivers/md/dm-bufio
+drivers/md/dm-cache
+drivers/md/dm-cache-cleaner
+drivers/md/dm-cache-mq
+drivers/md/dm-cache-smq
+drivers/md/dm-crypt
+drivers/md/dm-delay
+drivers/md/dm-era
+drivers/md/dm-flakey
+drivers/md/dm-least-pending
+drivers/md/dm-log
+drivers/md/dm-log-userspace
+drivers/md/dm-log-writes
+drivers/md/dm-mirror
+drivers/md/dm-mod
+drivers/md/dm-multipath
+drivers/md/dm-queue-length
+drivers/md/dm-raid
+drivers/md/dm-region-hash
+drivers/md/dm-round-robin
+drivers/md/dm-service-time
+drivers/md/dm-snapshot
+drivers/md/dm-switch
+drivers/md/dm-thin-pool
+drivers/md/dm-verity no
+drivers/md/dm-zero
+drivers/md/faulty
+drivers/md/linear
+drivers/md/md-mod
+drivers/md/md-cluster
+drivers/md/persistent-data/dm-persistent-data
+drivers/md/raid0
+drivers/md/raid1
+drivers/md/raid10
+drivers/md/raid456
+drivers/media/common/btcx-risc
+drivers/media/common/cx2341x
+drivers/media/common/saa7146/saa7146
+drivers/media/common/saa7146/saa7146_vv
+drivers/media/common/tveeprom
+drivers/media/i2c/adv7170
+drivers/media/i2c/adv7175
+drivers/media/i2c/bt819
+drivers/media/i2c/bt856
+drivers/media/i2c/cs5345
+drivers/media/i2c/cs53l32a
+drivers/media/i2c/cx25840/cx25840
+drivers/media/i2c/ir-kbd-i2c
+drivers/media/i2c/ks0127
+drivers/media/i2c/m52790
+drivers/media/i2c/msp3400
+drivers/media/i2c/saa6588
+drivers/media/i2c/saa7110
+drivers/media/i2c/saa7115
+drivers/media/i2c/saa7127
+drivers/media/i2c/saa717x
+drivers/media/i2c/saa7185
+drivers/media/i2c/tda7432
+drivers/media/i2c/tda9840
+drivers/media/i2c/tea6415c
+drivers/media/i2c/tea6420
+drivers/media/i2c/tvaudio
+drivers/media/i2c/tvp5150
+drivers/media/i2c/upd64031a
+drivers/media/i2c/upd64083
+drivers/media/i2c/vp27smpx
+drivers/media/i2c/vpx3220
+drivers/media/i2c/wm8739
+drivers/media/i2c/wm8775
+drivers/media/pci/bt8xx/bttv
+drivers/media/pci/cx88/cx88-alsa
+drivers/media/pci/cx88/cx88-blackbird
+drivers/media/pci/cx88/cx8800
+drivers/media/pci/cx88/cx8802
+drivers/media/pci/cx88/cx88xx
+drivers/media/pci/ivtv/ivtv no
+drivers/media/pci/ivtv/ivtvfb no
+drivers/media/pci/meye/meye
+drivers/media/pci/saa7134/saa6752hs
+drivers/media/pci/saa7134/saa7134
+drivers/media/pci/saa7134/saa7134-alsa
+drivers/media/pci/saa7134/saa7134-empress
+drivers/media/pci/saa7146/hexium_gemini
+drivers/media/pci/saa7146/hexium_orion
+drivers/media/pci/saa7146/mxb
+drivers/media/pci/zoran/videocodec
+drivers/media/pci/zoran/zr36016
+drivers/media/pci/zoran/zr36050
+drivers/media/pci/zoran/zr36060
+drivers/media/pci/zoran/zr36067
+drivers/media/platform/vivi
+drivers/media/radio/dsbr100
+drivers/media/radio/radio-maxiradio
+drivers/media/radio/si470x/radio-usb-si470x
+drivers/media/radio/tea575x
+drivers/media/rc/ati_remote
+drivers/media/rc/rc_core
+drivers/media/rc/winbond-cir
+drivers/media/tuners/mt2060
+drivers/media/tuners/mt20xx
+drivers/media/tuners/mt2131
+drivers/media/tuners/mt2266
+drivers/media/tuners/mxl5005s
+drivers/media/tuners/mxl5007t
+drivers/media/tuners/qt1010
+drivers/media/tuners/tda18271
+drivers/media/tuners/tda827x
+drivers/media/tuners/tda8290
+drivers/media/tuners/tda9887
+drivers/media/tuners/tea5761
+drivers/media/tuners/tea5767
+drivers/media/tuners/tuner-simple
+drivers/media/tuners/tuner-types
+drivers/media/tuners/tuner-xc2028 no
+drivers/media/tuners/xc5000
+drivers/media/usb/em28xx/em28xx
+drivers/media/usb/em28xx/em28xx-alsa
+drivers/media/usb/usbvision/usbvision
+drivers/media/usb/uvc/uvcvideo
+drivers/media/v4l2-core/tuner
+drivers/media/v4l2-core/v4l2-common
+drivers/media/v4l2-core/videobuf-core
+drivers/media/v4l2-core/videobuf-dma-sg
+drivers/media/v4l2-core/videobuf-vmalloc
+drivers/media/v4l2-core/videobuf2-core
+drivers/media/v4l2-core/videobuf2-dma-contig
+drivers/media/v4l2-core/videobuf2-dma-sg
+drivers/media/v4l2-core/videobuf2-dvb no
+drivers/media/v4l2-core/videobuf2-memops
+drivers/media/v4l2-core/videobuf2-vmalloc
+drivers/media/v4l2-core/videobuf2-v4l2
+drivers/media/v4l2-core/videodev
+drivers/media/* no
+drivers/memory/pl172 no
+drivers/memstick/core/memstick
+drivers/memstick/core/ms_block no
+drivers/memstick/core/mspro_block
+drivers/memstick/host/jmb38x_ms
+drivers/memstick/host/r592 no
+drivers/memstick/host/rtsx_pci_ms no
+drivers/memstick/host/rtsx_usb_ms no
+drivers/memstick/host/tifm_ms
+drivers/message/fusion/mptbase
+drivers/message/fusion/mptctl
+drivers/message/fusion/mptfc
+drivers/message/fusion/mptlan
+drivers/message/fusion/mptsas
+drivers/message/fusion/mptscsih
+drivers/message/fusion/mptspi
+drivers/mfd/atmel-hlcdc no
+drivers/mfd/cros_ec_i2c no
+drivers/mfd/cros_ec no
+drivers/mfd/da9062-core no
+drivers/mfd/dln2
+drivers/mfd/htc-pasic3
+drivers/mfd/lp3943 no
+drivers/mfd/lpc_ich
+drivers/mfd/lpc_sch
+drivers/mfd/intel-lpss-acpi
+drivers/mfd/intel-lpss
+drivers/mfd/intel-lpss-pci
+drivers/mfd/intel_quark_i2c_gpio
+drivers/mfd/menf21bmc no
+drivers/mfd/mfd-core
+drivers/mfd/qcom_rpm no
+drivers/mfd/rtsx_pci
+drivers/mfd/rtsx_usb
+drivers/mfd/ti_am335x_tscadc no
+drivers/mfd/tps65010 no
+drivers/mfd/tps6507x no
+drivers/mfd/viperboard
+drivers/mfd/vx855 no
+drivers/mfd/wl1273-core no
+drivers/misc/ad525x_dpot-i2c no
+drivers/misc/ad525x_dpot no
+drivers/misc/altera-stapl/altera-stapl no
+drivers/misc/apds990x no
+drivers/misc/bh1780gli no
+drivers/misc/ds1682
+drivers/misc/bh1770glc no
+drivers/misc/bmp085-i2c no
+drivers/misc/bmp085 no
+drivers/misc/c2port/c2port-duramar2150 no
+drivers/misc/c2port/core no
+drivers/misc/cb710/cb710 no
+drivers/misc/dummy-irq
+drivers/misc/echo/echo no
+drivers/misc/eeprom/at24
+drivers/misc/eeprom/eeprom
+drivers/misc/eeprom/eeprom_93cx6
+drivers/misc/eeprom/max6875
+drivers/misc/enclosure
+drivers/misc/fsa9480 no
+drivers/misc/genwqe/genwqe_card external
+drivers/misc/cxl/cxl.ko
+drivers/misc/hmc6352 no
+drivers/misc/hpilo
+drivers/misc/ibmasm/ibmasm
+drivers/misc/ics932s401 no
+drivers/misc/ioc4
+drivers/misc/isl29020 no
+drivers/misc/lis3lv02d/lis3lv02d
+drivers/misc/lis3lv02d/lis3lv02d_i2c no
+drivers/misc/lkdtm
+drivers/misc/mei/mei
+drivers/misc/mei/mei-me
+drivers/misc/mei/mei-txe
+drivers/misc/phantom
+drivers/misc/sgi-gru/gru
+drivers/misc/sgi-xp/xp
+drivers/misc/sgi-xp/xpc
+drivers/misc/sgi-xp/xpnet
+drivers/misc/ti-st/st_drv no
+drivers/misc/tifm_7xx1
+drivers/misc/tifm_core
+drivers/misc/tsl2550
+drivers/misc/vmw_balloon
+drivers/misc/vmw_vmci/vmw_vmci
+drivers/mmc/card/mmc_block
+drivers/mmc/card/sdio_uart
+drivers/mmc/core/mmc_core
+drivers/mmc/host/armmmci no
+drivers/mmc/host/bcm2835-sdhost
+drivers/mmc/host/cb710-mmc no
+drivers/mmc/host/dw_mmc
+drivers/mmc/host/dw_mmc-exynos no
+drivers/mmc/host/dw_mmc-k3
+drivers/mmc/host/dw_mmc-pci
+drivers/mmc/host/dw_mmc-pltfm
+drivers/mmc/host/dw_mmc-rockchip
+drivers/mmc/host/mmci
+drivers/mmc/host/mtk-sd no
+drivers/mmc/host/rtsx_pci_sdmmc
+drivers/mmc/host/rtsx_usb_sdmmc
+drivers/mmc/host/sdhci
+drivers/mmc/host/sdhci-acpi
+drivers/mmc/host/sdhci-bcm2835 no
+drivers/mmc/host/sdhci_f_sdh30 no
+drivers/mmc/host/sdhci-iproc
+drivers/mmc/host/sdhci-msm
+drivers/mmc/host/sdhci-of-arasan
+drivers/mmc/host/sdhci-of-esdhc
+drivers/mmc/host/sdhci-pci
+drivers/mmc/host/sdhci-pltfm
+drivers/mmc/host/sdhci-pxav3
+drivers/mmc/host/sdhci-tegra no
+drivers/mmc/host/sdhci-xenon-driver
+drivers/mmc/host/thunderx-mmc
+drivers/mmc/host/tifm_sd
+drivers/mmc/host/toshsd no
+drivers/mmc/host/usdhi6rol0 no
+drivers/mmc/host/ushc no
+drivers/mmc/host/via-sdmmc no
+drivers/mmc/host/vub300 no
+drivers/mmc/host/wbsd
+drivers/mtd/devices/powernv_flash external
+drivers/mtd/mtd
+drivers/mtd/mtd_blkdevs
+drivers/mtd/mtdblock
+drivers/mtd/* no
+drivers/net/bonding/bonding
+drivers/net/can/c_can/c_can no
+drivers/net/can/c_can/c_can_pci no
+drivers/net/can/can-dev
+drivers/net/can/m_can no
+drivers/net/can/sja1000/ems_pci no
+drivers/net/can/sja1000/kvaser_pci no
+drivers/net/can/sja1000/peak_pci
+drivers/net/can/sja1000/plx_pci no
+drivers/net/can/sja1000/sja1000
+drivers/net/can/slcan
+drivers/net/can/usb/ems_usb no
+drivers/net/can/usb/esd_usb2 no
+drivers/net/can/usb/gs_usb no
+drivers/net/can/usb/kvaser_usb no
+drivers/net/can/usb/peak_usb/peak_usb no
+drivers/net/can/usb/usb_8dev no
+drivers/net/can/vcan
+drivers/net/can/xilinx_can
+drivers/net/dsa/* no
+drivers/net/dummy
+drivers/net/eql
+drivers/net/ethernet/3com/3c59x
+drivers/net/ethernet/3com/typhoon
+drivers/net/ethernet/8390/8390
+drivers/net/ethernet/8390/ne2k-pci
+drivers/net/ethernet/adaptec/starfire
+drivers/net/ethernet/agere/et131x
+drivers/net/ethernet/alteon/acenic
+drivers/net/ethernet/altera/altera_tse no
+drivers/net/ethernet/amazon/ena/ena
+drivers/net/ethernet/amd/amd8111e
+drivers/net/ethernet/amd/pcnet32
+drivers/net/ethernet/amd/xgbe/amd-xgbe
+drivers/net/ethernet/amd/xgbe-a0/amd-xgbe-a0
+drivers/net/ethernet/apm/xgene/xgene-enet
+drivers/net/ethernet/arc/arc_emac no
+drivers/net/ethernet/arc/emac_arc no
+drivers/net/ethernet/arc/emac_rockchip no
+drivers/net/ethernet/atheros/alx/alx
+drivers/net/ethernet/atheros/atl1c/atl1c no
+drivers/net/ethernet/atheros/atl1e/atl1e
+drivers/net/ethernet/atheros/atlx/atl1
+drivers/net/ethernet/atheros/atlx/atl2
+drivers/net/ethernet/aurora/nb8800 no
+drivers/net/ethernet/broadcom/b44
+drivers/net/ethernet/broadcom/bcmsysport no
+drivers/net/ethernet/broadcom/genet no
+drivers/net/ethernet/broadcom/bnx2
+drivers/net/ethernet/broadcom/bnx2x/bnx2x
+drivers/net/ethernet/broadcom/cnic
+drivers/net/ethernet/broadcom/tg3
+drivers/net/ethernet/broadcom/bnxt/bnxt_en
+drivers/net/ethernet/brocade/bna/bna
+drivers/net/ethernet/cadence/macb
+drivers/net/ethernet/cavium/thunder/nicpf
+drivers/net/ethernet/cavium/thunder/nicvf
+drivers/net/ethernet/cavium/thunder/thunder_bgx
+drivers/net/ethernet/cavium/thunder/thunder_xcv
+drivers/net/ethernet/chelsio/cxgb/cxgb no
+drivers/net/ethernet/chelsio/cxgb3/cxgb3
+drivers/net/ethernet/chelsio/cxgb4/cxgb4
+drivers/net/ethernet/chelsio/cxgb4vf/cxgb4vf
+drivers/net/ethernet/chelsio/libcxgb/libcxgb
+drivers/net/ethernet/cisco/enic/enic
+drivers/net/ethernet/dec/tulip/de2104x
+drivers/net/ethernet/dec/tulip/de4x5
+drivers/net/ethernet/dec/tulip/dmfe
+drivers/net/ethernet/dec/tulip/tulip
+drivers/net/ethernet/dec/tulip/uli526x
+drivers/net/ethernet/dec/tulip/winbond-840
+drivers/net/ethernet/dec/tulip/xircom_cb
+drivers/net/ethernet/dlink/dl2k
+drivers/net/ethernet/dlink/sundance
+drivers/net/ethernet/dnet no
+drivers/net/ethernet/ec_bhf no
+drivers/net/ethernet/ethoc no
+drivers/net/ethernet/emulex/benet/be2net
+drivers/net/ethernet/ezchip/nps_enet
+drivers/net/ethernet/fealnx
+drivers/net/ethernet/freescale/fsl_pq_mdio no
+drivers/net/ethernet/freescale/gianfar_driver no
+drivers/net/ethernet/freescale/gianfar_ptp no
+drivers/net/ethernet/freescale/xgmac_mdio
+drivers/net/ethernet/freescale/dpaa/*
+drivers/net/ethernet/freescale/fman/*
+drivers/net/ethernet/hp/hp100
+drivers/net/ethernet/hisilicon/hip04_eth no
+drivers/net/ethernet/hisilicon/hix5hd2_gmac no
+drivers/net/ethernet/hisilicon/hns_mdio
+drivers/net/ethernet/hisilicon/hns/*
+drivers/net/ethernet/ibm/ibmveth external
+drivers/net/ethernet/ibm/ibmvnic
+drivers/net/ethernet/icplus/ipg
+drivers/net/ethernet/intel/e100
+drivers/net/ethernet/intel/e1000/e1000
+drivers/net/ethernet/intel/e1000e/e1000e
+drivers/net/ethernet/intel/fm10k/fm10k
+drivers/net/ethernet/intel/i40e/i40e
+drivers/net/ethernet/intel/i40evf/i40evf
+drivers/net/ethernet/intel/igb/igb
+drivers/net/ethernet/intel/igbvf/igbvf
+drivers/net/ethernet/intel/ixgb/ixgb
+drivers/net/ethernet/intel/ixgbe/ixgbe
+drivers/net/ethernet/intel/ixgbevf/ixgbevf
+drivers/net/ethernet/jme
+drivers/net/ethernet/marvell/mvmdio
+drivers/net/ethernet/marvell/mvneta
+drivers/net/ethernet/marvell/mvneta_bm
+drivers/net/ethernet/marvell/mvpp2
+drivers/net/ethernet/marvell/skge
+drivers/net/ethernet/marvell/sky2
+drivers/net/ethernet/mellanox/mlx4/mlx4_core
+drivers/net/ethernet/mellanox/mlx4/mlx4_en
+drivers/net/ethernet/mellanox/mlx5/core/mlx5_core
+drivers/net/ethernet/mellanox/mlxsw/mlxsw_core no
+drivers/net/ethernet/mellanox/mlxsw/mlxsw_pci no
+drivers/net/ethernet/mellanox/mlxsw/mlxsw_spectrum no
+drivers/net/ethernet/mellanox/mlxsw/mlxsw_switchx2 no
+drivers/net/ethernet/micrel/ks8842 no
+drivers/net/ethernet/micrel/ks8851_mll no
+drivers/net/ethernet/micrel/ksz884x no
+drivers/net/ethernet/myricom/myri10ge/myri10ge
+drivers/net/ethernet/natsemi/natsemi
+drivers/net/ethernet/natsemi/ns83820
+drivers/net/ethernet/neterion/s2io
+drivers/net/ethernet/neterion/vxge/vxge
+drivers/net/ethernet/nvidia/forcedeth
+drivers/net/ethernet/packetengines/hamachi
+drivers/net/ethernet/packetengines/yellowfin
+drivers/net/ethernet/qlogic/netxen/netxen_nic
+drivers/net/ethernet/qlogic/qla3xxx
+drivers/net/ethernet/qlogic/qlcnic/qlcnic
+drivers/net/ethernet/qlogic/qlge/qlge
+drivers/net/ethernet/qlogic/qed/qed
+drivers/net/ethernet/qlogic/qede/qede
+drivers/net/ethernet/qualcomm/emac/qcom-emac
+drivers/net/ethernet/rdc/r6040
+drivers/net/ethernet/realtek/8139cp
+drivers/net/ethernet/realtek/8139too
+drivers/net/ethernet/realtek/atp no
+drivers/net/ethernet/realtek/r8169
+drivers/net/ethernet/rocker/rocker no
+drivers/net/ethernet/samsung/* no
+drivers/net/ethernet/smsc/*
+drivers/net/ethernet/sfc/sfc
+drivers/net/ethernet/sfc/falcon/sfc-falcon
+drivers/net/ethernet/silan/sc92031
+drivers/net/ethernet/sis/sis190
+drivers/net/ethernet/sis/sis900
+drivers/net/ethernet/smsc/epic100
+drivers/net/ethernet/stmicro/stmmac/*
+drivers/net/ethernet/stmmac/*
+drivers/net/ethernet/sun/cassini no
+drivers/net/ethernet/sun/niu
+drivers/net/ethernet/sun/sungem
+drivers/net/ethernet/sun/sunhme
+drivers/net/ethernet/synopsys/dwc_eth_qos
+drivers/net/ethernet/tehuti/tehuti
+drivers/net/ethernet/ti/cpsw_ale no
+drivers/net/ethernet/ti/tlan
+drivers/net/ethernet/via/via-rhine
+drivers/net/ethernet/via/via-velocity
+drivers/net/ethernet/wiznet/*
+drivers/net/fddi/skfp/skfp
+drivers/net/fddi/defxx no
+drivers/net/fjes/fjes
+drivers/net/geneve
+drivers/net/hippi/rrunner
+drivers/net/hyperv/hv_netvsc external
+drivers/net/ifb
+drivers/net/ipvlan/ipvlan
+drivers/net/irda/act200l-sir
+drivers/net/irda/actisys-sir
+drivers/net/irda/ali-ircc no
+drivers/net/irda/esi-sir
+drivers/net/irda/girbil-sir
+drivers/net/irda/irda-usb
+drivers/net/irda/irtty-sir
+drivers/net/irda/kingsun-sir
+drivers/net/irda/ks959-sir
+drivers/net/irda/ksdazzle-sir
+drivers/net/irda/litelink-sir
+drivers/net/irda/ma600-sir
+drivers/net/irda/mcp2120-sir
+drivers/net/irda/mcs7780
+drivers/net/irda/nsc-ircc no
+drivers/net/irda/old_belkin-sir
+drivers/net/irda/sir-dev
+drivers/net/irda/smsc-ircc2 no
+drivers/net/irda/stir4200
+drivers/net/irda/tekram-sir
+drivers/net/irda/toim3232-sir
+drivers/net/irda/via-ircc no
+drivers/net/irda/vlsi_ir
+drivers/net/irda/w83977af_ir no
+drivers/net/macvlan
+drivers/net/macvtap
+drivers/net/mdio
+drivers/net/mii
+drivers/net/netconsole
+drivers/net/nlmon
+drivers/net/ntb_netdev no
+drivers/net/phy/amd
+drivers/net/phy/amd-xgbe-phy
+drivers/net/phy/amd-xgbe-phy-a0
+drivers/net/phy/aquantia no
+drivers/net/phy/at803x
+drivers/net/phy/bcm87xx
+drivers/net/phy/broadcom
+drivers/net/phy/bcm-phy-lib
+drivers/net/phy/bcm7xxx no
+drivers/net/phy/cicada
+drivers/net/phy/davicom
+drivers/net/phy/dp83848 no
+drivers/net/phy/dp83867
+drivers/net/phy/et1011c
+drivers/net/phy/fixed_phy
+drivers/net/phy/icplus
+drivers/net/phy/libphy
+drivers/net/phy/lxt
+drivers/net/phy/marvell
+drivers/net/phy/mdio-bcm-unimac no
+drivers/net/phy/mdio-bitbang
+drivers/net/phy/mdio-cavium
+drivers/net/phy/mdio-gpio
+drivers/net/phy/mdio-mux no
+drivers/net/phy/mdio-mux-gpio no
+drivers/net/phy/mdio-mux-mmioreg no
+drivers/net/phy/mdio-octeon
+drivers/net/phy/mdio-thunder
+drivers/net/phy/mdio-xgene
+drivers/net/phy/micrel
+drivers/net/phy/microchip no
+drivers/net/phy/national
+drivers/net/phy/qsemi
+drivers/net/phy/realtek
+drivers/net/phy/smsc
+drivers/net/phy/ste10Xp
+drivers/net/phy/teranetics no
+drivers/net/phy/vitesse
+drivers/net/phy/xgene
+drivers/net/plip/plip
+drivers/net/ppp/bsd_comp
+drivers/net/ppp/ppp_async
+drivers/net/ppp/ppp_deflate
+drivers/net/ppp/ppp_generic
+drivers/net/ppp/ppp_mppe
+drivers/net/ppp/ppp_synctty
+drivers/net/ppp/pppoe
+drivers/net/ppp/pppox
+drivers/net/ppp/pptp
+drivers/net/rionet no
+drivers/net/slip/slhc
+drivers/net/slip/slip
+drivers/net/sungem_phy
+drivers/net/team/*
+drivers/net/tun
+drivers/net/usb/asix
+drivers/net/usb/ax88179_178a
+drivers/net/usb/catc
+drivers/net/usb/cdc_eem
+drivers/net/usb/cdc_ether
+drivers/net/usb/cdc_mbim
+drivers/net/usb/cdc_ncm
+drivers/net/usb/cdc_subset no
+drivers/net/usb/dm9601
+drivers/net/usb/gl620a
+drivers/net/usb/hso
+drivers/net/usb/kaweth
+drivers/net/usb/mcs7830
+drivers/net/usb/net1080
+drivers/net/usb/pegasus
+drivers/net/usb/plusb
+drivers/net/usb/qmi_wwan
+drivers/net/usb/rndis_host
+drivers/net/usb/rtl8150
+drivers/net/usb/r8152
+drivers/net/usb/smsc95xx
+drivers/net/usb/sierra_net
+drivers/net/usb/usbnet
+drivers/net/usb/zaurus
+drivers/net/usb/* no
+drivers/net/veth
+drivers/net/virtio_net
+drivers/net/vmxnet3/vmxnet3
+drivers/net/vrf
+drivers/net/vxlan
+drivers/net/wireless/adm8211
+drivers/net/wireless/ath/ath
+drivers/net/wireless/ath/ath5k/ath5k
+drivers/net/wireless/ath/ath9k/ath9k
+drivers/net/wireless/ath/ath9k/ath9k_common
+drivers/net/wireless/ath/ath9k/ath9k_hw
+drivers/net/wireless/brcm80211/brcmfmac/brcmfmac
+drivers/net/wireless/brcm80211/brcmutil/brcmutil
+drivers/net/wireless/iwlwifi/dvm/iwldvm external
+drivers/net/wireless/iwlwifi/iwlwifi external
+drivers/net/wireless/iwlwifi/mvm/iwlmvm external
+drivers/net/wireless/libertas/libertas
+drivers/net/wireless/libertas/libertas_sdio
+drivers/net/wireless/libertas/usb8xxx
+drivers/net/wireless/mwifiex/mwifiex
+drivers/net/wireless/mwifiex/mwifiex_sdio
+drivers/net/wireless/mwifiex/mwifiex_pcie no
+drivers/net/wireless/mwifiex/mwifiex_usb no
+drivers/net/wireless/mac80211_hwsim
+drivers/net/wireless/rndis_wlan
+drivers/net/wireless/rtl818x/rtl8180/rtl8180
+drivers/net/wireless/rtl818x/rtl8187/rtl8187
+drivers/net/wireless/zd1201
+drivers/net/wireless/zd1211rw/zd1211rw
+drivers/net/wireless/* no
+drivers/net/xen-netfront
+drivers/net/xen-netback/xen-netback
+drivers/nfc/mei_phy
+drivers/nfc/pn533
+drivers/nfc/pn544/pn544
+drivers/nfc/pn544/pn544_mei
+drivers/nfc/* no
+drivers/ntb/hw/amd/ntb_hw_amd
+drivers/ntb/hw/intel/ntb_hw_intel
+drivers/ntb/ntb
+drivers/ntb/ntb_transport
+drivers/nvdimm/libnvdimm
+drivers/nvdimm/nd_e820
+drivers/nvdimm/nd_blk
+drivers/nvdimm/nd_btt
+drivers/nvdimm/nd_pmem
+drivers/nvme/host/*
+drivers/nvme/target/*
+drivers/nvmem/nvmem_core
+drivers/nvmem/nvmem_qfprom
+drivers/nvmem/nvmem_rockchip_efuse no
+drivers/of/of_mdio
+drivers/parport/parport
+drivers/parport/parport_ax88796
+drivers/parport/parport_pc
+drivers/parport/parport_serial
+drivers/pci/host/pcie-iproc
+drivers/pci/host/pcie-iproc-platform
+drivers/pci/hotplug/acpiphp_ibm
+drivers/pci/hotplug/cpcihp_generic no
+drivers/pci/hotplug/cpcihp_zt5550 no
+drivers/pci/hotplug/rpadlpar_io external
+drivers/pci/hotplug/rpaphp external
+drivers/pci/hotplug/shpchp
+drivers/pci/pci-iomul
+drivers/pci/pcie/aer/aer_inject
+drivers/pci/xen-pcifront
+drivers/pci/host/pci-hyperv external
+drivers/pcmcia/pcmcia_core
+drivers/pcmcia/pcmcia_rsrc
+drivers/pcmcia/yenta_socket
+drivers/phy/phy-xgene
+drivers/phy/phy-bcm-kona-usb2 no
+drivers/phy/phy-berlin-sata no
+drivers/phy/phy-berlin-usb no
+drivers/phy/phy-exynos-dp-video no
+drivers/phy/phy-exynos-mipi-video no
+drivers/phy/phy-mt65xx-usb3 no
+drivers/phy/phy-pxa-28nm-hsic no
+drivers/phy/phy-pxa-28nm-usb2 no
+drivers/phy/phy-qcom-apq8064-sata no
+drivers/phy/phy-qcom-ipq806x-sata no
+drivers/phy/phy-qcom-ufs
+drivers/phy/phy-qcom-ufs-qmp-14nm
+drivers/phy/phy-qcom-ufs-qmp-20nm
+drivers/phy/phy-rockchip-dp
+drivers/phy/phy-rockchip-emmc
+drivers/phy/phy-rockchip-inno-usb2
+drivers/phy/phy-rockchip-pcie
+drivers/phy/phy-rockchip-typec
+drivers/phy/phy-rockchip-usb no
+drivers/pinctrl/intel/pinctrl-cherryview
+drivers/pinctrl/* no
+drivers/platform/chrome/* no
+drivers/platform/x86/acer-wmi
+drivers/platform/x86/acerhdf no
+drivers/platform/x86/alienware-wmi no
+drivers/platform/x86/amilo-rfkill no
+drivers/platform/x86/apple-gmux no
+drivers/platform/x86/asus-laptop
+drivers/platform/x86/asus-nb-wmi no
+drivers/platform/x86/asus-wmi no
+drivers/platform/x86/classmate-laptop no
+drivers/platform/x86/compal-laptop
+drivers/platform/x86/dell-laptop
+drivers/platform/x86/dell-rbtn no
+drivers/platform/x86/dell-smo8800 no
+drivers/platform/x86/dell-wmi
+drivers/platform/x86/dell-wmi-aio no
+drivers/platform/x86/eeepc-laptop
+drivers/platform/x86/eeepc-wmi no
+drivers/platform/x86/fujitsu-laptop
+drivers/platform/x86/fujitsu-tablet no
+drivers/platform/x86/hdaps no
+drivers/platform/x86/hp-wmi
+drivers/platform/x86/hp_accel
+drivers/platform/x86/hp-wireless
+drivers/platform/x86/ibm_rtl no
+drivers/platform/x86/ideapad-laptop no
+drivers/platform/x86/intel-rst
+drivers/platform/x86/intel-smartconnect
+drivers/platform/x86/intel_ips no
+drivers/platform/x86/intel_menlow
+drivers/platform/x86/intel_oaktrail no
+drivers/platform/x86/intel_pmc_ipc no
+drivers/platform/x86/msi-laptop
+drivers/platform/x86/msi-wmi no
+drivers/platform/x86/mxm-wmi no
+drivers/platform/x86/panasonic-laptop
+drivers/platform/x86/pvpanic
+drivers/platform/x86/samsung-laptop no
+drivers/platform/x86/samsung-q10 no
+drivers/platform/x86/sony-laptop
+drivers/platform/x86/surfacepro3_button no
+drivers/platform/x86/thinkpad_acpi
+drivers/platform/x86/topstar-laptop
+drivers/platform/x86/toshiba_acpi
+drivers/platform/x86/toshiba_haps no
+drivers/platform/x86/toshiba-wmi no
+drivers/platform/x86/toshiba_bluetooth no
+drivers/platform/x86/wmi
+drivers/power/pda_power
+drivers/power/* no
+drivers/powercap/intel_rapl
+drivers/pps/clients/pps-gpio
+drivers/pps/clients/pps-ldisc
+drivers/pps/clients/pps_parport
+drivers/pps/pps-core
+drivers/ptp/ptp
+drivers/pwm/pwm-bcm2835
+drivers/pwm/* no
+drivers/rapidio/* no
+drivers/regulator/fixed
+drivers/regulator/gpio-regulator no
+drivers/regulator/isl9305 no
+drivers/regulator/ltc3589 no
+drivers/regulator/pwm-regulator no
+drivers/regulator/qcom_rpm-regulator no
+drivers/regulator/qcom_smd-regulator no
+drivers/regulator/vexpress
+drivers/rtc/rtc-ab-b5ze-s3
+drivers/rtc/rtc-abx80x
+drivers/rtc/rtc-armada38x
+drivers/rtc/rtc-cmos
+drivers/rtc/rtc-ds1307
+drivers/rtc/rtc-ds1374
+drivers/rtc/rtc-ds1672
+drivers/rtc/rtc-ds1685
+drivers/rtc/rtc-ds1742
+drivers/rtc/rtc-ds3232
+drivers/rtc/rtc-efi
+drivers/rtc/rtc-fm3130
+drivers/rtc/rtc-generic
+drivers/rtc/rtc-hym8563 no
+drivers/rtc/rtc-isl12057
+drivers/rtc/rtc-isl1208
+drivers/rtc/rtc-m41t80
+drivers/rtc/rtc-max6900
+drivers/rtc/rtc-mv
+drivers/rtc/rtc-opal external
+drivers/rtc/rtc-pcf2127
+drivers/rtc/rtc-pcf85063
+drivers/rtc/rtc-pcf8523
+drivers/rtc/rtc-pcf8563
+drivers/rtc/rtc-pcf8583
+drivers/rtc/rtc-rs5c372
+drivers/rtc/rtc-rv8803 no
+drivers/rtc/rtc-s35390a
+drivers/rtc/rtc-s3c no
+drivers/rtc/rtc-tegra no
+drivers/rtc/rtc-test
+drivers/rtc/rtc-x1205
+drivers/rtc/rtc-xgene
+drivers/s390/block/dasd_diag_mod
+drivers/s390/block/dasd_eckd_mod
+drivers/s390/block/dasd_fba_mod
+drivers/s390/block/dasd_mod
+drivers/s390/block/dcssblk
+drivers/s390/block/scm_block
+drivers/s390/block/xpram
+drivers/s390/char/fs3270
+drivers/s390/char/hmcdrv
+drivers/s390/char/monreader
+drivers/s390/char/monwriter
+drivers/s390/char/raw3270
+drivers/s390/char/sclp_async
+drivers/s390/char/sclp_cpi
+drivers/s390/char/tape
+drivers/s390/char/tape_34xx
+drivers/s390/char/tape_3590
+drivers/s390/char/tape_class
+drivers/s390/char/tty3270
+drivers/s390/char/vmlogrdr
+drivers/s390/char/vmur
+drivers/s390/cio/ccwgroup
+drivers/s390/cio/chsc_sch
+drivers/s390/cio/eadm_sch
+drivers/s390/cio/qdio
+drivers/s390/crypto/ap
+drivers/s390/crypto/zcrypt_api
+drivers/s390/crypto/zcrypt_cex2a
+drivers/s390/crypto/zcrypt_cex4
+drivers/s390/crypto/zcrypt_msgtype50
+drivers/s390/crypto/zcrypt_msgtype6
+drivers/s390/crypto/zcrypt_pcica
+drivers/s390/crypto/zcrypt_pcicc
+drivers/s390/crypto/zcrypt_pcixcc
+drivers/s390/net/claw no
+drivers/s390/net/ctcm
+drivers/s390/net/fsm
+drivers/s390/net/lcs
+drivers/s390/net/netiucv
+drivers/s390/net/qeth
+drivers/s390/net/qeth_l2
+drivers/s390/net/qeth_l3
+drivers/s390/net/smsgiucv
+drivers/s390/net/smsgiucv_app
+drivers/s390/scsi/zfcp
+drivers/scsi/3w-9xxx
+drivers/scsi/3w-sas
+drivers/scsi/3w-xxxx
+drivers/scsi/BusLogic
+drivers/scsi/a100u2w no
+drivers/scsi/aacraid/aacraid
+drivers/scsi/aic7xxx/aic79xx
+drivers/scsi/aic7xxx/aic7xxx
+drivers/scsi/aic94xx/aic94xx
+drivers/scsi/am53c974
+drivers/scsi/arcmsr/arcmsr
+drivers/scsi/atp870u
+drivers/scsi/be2iscsi/be2iscsi
+drivers/scsi/bfa/bfa
+drivers/scsi/bnx2fc/bnx2fc
+drivers/scsi/bnx2i/bnx2i
+drivers/scsi/ch
+drivers/scsi/csiostor/csiostor
+drivers/scsi/cxgbi/cxgb3i/cxgb3i
+drivers/scsi/cxgbi/cxgb4i/cxgb4i
+drivers/scsi/cxgbi/libcxgbi
+drivers/scsi/cxlflash/cxlflash external
+drivers/scsi/dc395x
+drivers/scsi/device_handler/scsi_dh
+drivers/scsi/device_handler/scsi_dh_alua
+drivers/scsi/device_handler/scsi_dh_emc
+drivers/scsi/device_handler/scsi_dh_hp_sw
+drivers/scsi/device_handler/scsi_dh_rdac
+drivers/scsi/dmx3191d
+drivers/scsi/dpt_i2o
+drivers/scsi/eata
+drivers/scsi/esas2r/esas2r
+drivers/scsi/esp_scsi
+drivers/scsi/fcoe/fcoe
+drivers/scsi/fcoe/libfcoe
+drivers/scsi/fdomain
+drivers/scsi/fnic/fnic
+drivers/scsi/gdth
+drivers/scsi/hisi_sas/hisi_sas_main
+drivers/scsi/hisi_sas/hisi_sas_v1_hw
+drivers/scsi/hsis_sas/hisi_sas_v2_hw
+drivers/scsi/hpsa
+drivers/scsi/hptiop
+drivers/scsi/hv_storvsc external
+drivers/scsi/ibmvscsi/ibmvfc external
+drivers/scsi/ibmvscsi/ibmvscsi external
+drivers/scsi/ibmvscsi/ibmvstgt external
+drivers/scsi/imm
+drivers/scsi/initio no
+drivers/scsi/ipr external
+drivers/scsi/ips
+drivers/scsi/isci/isci external
+drivers/scsi/iscsi_boot_sysfs
+drivers/scsi/iscsi_tcp
+drivers/scsi/libfc/libfc
+drivers/scsi/libiscsi
+drivers/scsi/libiscsi_tcp
+drivers/scsi/libsas/libsas
+drivers/scsi/libsrp
+drivers/scsi/lpfc/lpfc
+drivers/scsi/megaraid
+drivers/scsi/megaraid/megaraid_mbox
+drivers/scsi/megaraid/megaraid_mm
+drivers/scsi/megaraid/megaraid_sas
+drivers/scsi/mpt2sas/mpt2sas
+drivers/scsi/mpt3sas/mpt3sas
+drivers/scsi/mvsas/mvsas
+drivers/scsi/mvumi no
+drivers/scsi/osd/libosd
+drivers/scsi/osd/osd
+drivers/scsi/osst no
+drivers/scsi/pm8001/pm80xx
+drivers/scsi/pmcraid
+drivers/scsi/ppa
+drivers/scsi/qla1280
+drivers/scsi/qla2xxx/qla2xxx
+drivers/scsi/qla2xxx/tcm_qla2xxx
+drivers/scsi/qla4xxx/qla4xxx
+drivers/scsi/qedi/qedi
+drivers/scsi/qedi/qedf
+drivers/scsi/raid_class
+drivers/scsi/scsi_debug
+drivers/scsi/scsi_mod
+drivers/scsi/scsi_tgt
+drivers/scsi/scsi_transport_fc
+drivers/scsi/scsi_transport_iscsi
+drivers/scsi/scsi_transport_sas
+drivers/scsi/scsi_transport_spi
+drivers/scsi/scsi_transport_srp
+drivers/scsi/sd_mod
+drivers/scsi/ses
+drivers/scsi/sg
+drivers/scsi/sr_mod
+drivers/scsi/smartpqi/smartpqi
+drivers/scsi/snic/snic
+drivers/scsi/st
+drivers/scsi/stex
+drivers/scsi/sym53c8xx_2/sym53c8xx
+drivers/scsi/am53c974#
+SCSI
+host
+adapter
+driver
+for
+Tekram
+DC390
+and
+other
+AMD53C974A
+based
+PCI
+SCSI
+adapters
+drivers/scsi/virtio_scsi
+drivers/scsi/vmw_pvscsi
+drivers/scsi/ufs/ufshcd no
+drivers/scsi/ufs/ufshcd-pci no
+drivers/scsi/ufs/ufshcd-pltfrm no
+drivers/scsi/wd719x no
+drivers/scsi/xen-scsifront
+drivers/soc/qcom/*
+drivers/soc/rockchip/grf
+drivers/spi/spi-bitbang
+drivers/spi/spi-bcm2835
+drivers/spi/spi-bcm2835aux
+drivers/spi/spi-cadence
+drivers/spi/spi-orion
+drivers/spi/spi-thunderx.ko
+drivers/spi/spi-xilinx
+drivers/spi/spi-xlp
+drivers/spi/spi-zynqmp-gqspi
+drivers/spi/spidev
+drivers/spmi/* no
+drivers/ssb/ssb
+drivers/staging/rdma/hfi1/hfi1
+drivers/staging/fsl-mc/bus/dpio/fsl-mc-dpio
+drivers/staging/fsl-dpaa2/ethernet/fsl-dpaa2-eth
+drivers/target/iscsi/iscsi_target_mod
+drivers/target/iscsi/cxgbit/cxgbit
+drivers/target/loopback/tcm_loop
+drivers/target/target_core_file
+drivers/target/target_core_iblock
+drivers/target/target_core_mod
+drivers/target/target_core_pscsi
+drivers/target/target_core_rbd
+drivers/target/tcm_fc/tcm_fc
+drivers/target/target_core_user
+drivers/thermal/armada_thermal
+drivers/thermal/bcm2835-thermal
+drivers/thermal/hisi_thermal
+drivers/thermal/int340x_thermal/acpi_thermal_rel no
+drivers/thermal/int340x_thermal/int3400_thermal no
+drivers/thermal/int340x_thermal/int3402_thermal no
+drivers/thermal/int340x_thermal/int3403_thermal no
+drivers/thermal/int340x_thermal/int340x_thermal_zone no
+drivers/thermal/int340x_thermal/processor_thermal_device no
+drivers/thermal/intel_powerclamp
+drivers/thermal/intel_soc_dts_iosf no
+drivers/thermal/intel_soc_dts_thermal no
+drivers/thermal/qoriq_thermal
+drivers/thermal/rockchip_thermal no
+drivers/thermal/samsung/* no
+drivers/thermal/tegra_soctherm no
+drivers/thermal/thermal_sys
+drivers/thermal/x86_pkg_temp_thermal
+drivers/thermal/intel_pch_thermal
+drivers/tty/cyclades
+drivers/tty/ehv_bytechan no
+drivers/tty/hvc/hvcs external
+drivers/tty/isicom no
+drivers/tty/moxa no
+drivers/tty/mxser
+drivers/tty/n_gsm
+drivers/tty/n_hdlc
+drivers/tty/n_r3964
+drivers/tty/n_tracerouter
+drivers/tty/n_tracesink
+drivers/tty/nozomi
+drivers/tty/rocket
+drivers/tty/serial/8250/8250
+drivers/tty/serial/8250/8250_dw
+drivers/tty/serial/8250/8250_pci
+drivers/tty/serial/8250/8250_mid no
+drivers/tty/serial/altera_jtaguart no
+drivers/tty/serial/altera_uart no
+drivers/tty/serial/sc16is7xx no
+drivers/tty/serial/fsl_lpuart no
+drivers/tty/serial/jsm/jsm
+drivers/tty/serial/kgdboc
+drivers/tty/serial/of_serial
+drivers/tty/serial/rp2 no
+drivers/tty/serial/serial_core
+drivers/tty/serial/st-asc no
+drivers/tty/serial/xilinx_uartps no
+drivers/thunderbolt/thunderbolt no
+drivers/uio/uio
+drivers/uio/uio_aec
+drivers/uio/uio_cif
+drivers/uio/uio_dmem_genirq no
+drivers/uio/uio_hv_generic.ko external
+drivers/uio/uio_mf624 no
+drivers/uio/uio_netx no
+drivers/uio/uio_pci_generic
+drivers/uio/uio_pdrv_genirq
+drivers/uio/uio_sercos3
+drivers/uwb/uwb no
+drivers/uwb/hwa-rc no
+drivers/uwb/i1480/dfu/i1480-dfu-usb no
+drivers/uwb/i1480/i1480-est no
+drivers/uwb/umc no
+drivers/uwb/whci no
+drivers/uwb/whc-rc no
+drivers/usb/atm/cxacru no
+drivers/usb/atm/speedtch
+drivers/usb/atm/ueagle-atm no
+drivers/usb/atm/usbatm
+drivers/usb/atm/xusbatm no
+drivers/usb/class/cdc-acm
+drivers/usb/class/cdc-wdm
+drivers/usb/class/usblp
+drivers/usb/class/usbtmc
+drivers/usb/common/ulpi
+drivers/usb/common/usb-common
+drivers/usb/core/usbcore
+drivers/usb/dwc2/*
+drivers/usb/dwc3/dwc3-exynos no
+drivers/usb/dwc3/*
+drivers/usb/host/ehci-exynos no
+drivers/usb/host/ehci-h20ahb no
+drivers/usb/host/ehci-msm
+drivers/usb/host/ehci-tegra no
+drivers/usb/host/ehci-hcd
+drivers/usb/host/ehci-pci
+drivers/usb/host/ehci-platform
+drivers/usb/host/hwa-hc no
+drivers/usb/host/ohci-exynos no
+drivers/usb/host/ohci-hcd
+drivers/usb/host/ohci-pci
+drivers/usb/host/ohci-platform
+drivers/usb/host/uhci-hcd
+drivers/usb/host/whci/whci-hcd no
+drivers/usb/host/xen-hcd
+drivers/usb/host/xhci-hcd
+drivers/usb/host/xhci-pci
+drivers/usb/host/xhci-plat-hcd
+drivers/usb/isp1760/isp1760
+drivers/usb/image/mdc800
+drivers/usb/image/microtek
+drivers/usb/misc/adutux
+drivers/usb/misc/appledisplay
+drivers/usb/misc/bh1780gli no
+drivers/usb/misc/chaoskey no
+drivers/usb/misc/cypress_cy7c63
+drivers/usb/misc/cytherm
+drivers/usb/misc/ehset no
+drivers/usb/misc/emi26
+drivers/usb/misc/emi62
+drivers/usb/misc/ezusb
+drivers/usb/misc/ftdi-elan
+drivers/usb/misc/idmouse
+drivers/usb/misc/iowarrior
+drivers/usb/misc/isight_firmware no
+drivers/usb/misc/ldusb
+drivers/usb/misc/legousbtower
+drivers/usb/misc/lvstest no
+drivers/usb/misc/rio500
+drivers/usb/misc/sisusbvga/sisusbvga no
+drivers/usb/misc/trancevibrator
+drivers/usb/misc/ucsi
+drivers/usb/misc/usb3503 no
+drivers/usb/misc/usblcd
+drivers/usb/misc/usbled
+drivers/usb/misc/usbsevseg
+drivers/usb/misc/uss720
+drivers/usb/misc/yurex no
+drivers/usb/mon/usbmon no
+drivers/usb/musb/musb_hdrc no
+drivers/usb/phy/phy-am335x no
+drivers/usb/phy/phy-am335x-control no
+drivers/usb/phy/phy-generic
+drivers/usb/phy/phy-isp1301 no
+drivers/usb/phy/phy-msm-usb no
+drivers/usb/phy/phy-qcom-8x16-usb no
+drivers/usb/phy/phy-tegra-usb no
+drivers/usb/serial/aircable
+drivers/usb/serial/ark3116
+drivers/usb/serial/belkin_sa
+drivers/usb/serial/ch341
+drivers/usb/serial/cp210x
+drivers/usb/serial/cyberjack
+drivers/usb/serial/cypress_m8
+drivers/usb/serial/digi_acceleport
+drivers/usb/serial/empeg
+drivers/usb/serial/f81232
+drivers/usb/serial/ftdi_sio
+drivers/usb/serial/garmin_gps
+drivers/usb/serial/io_edgeport
+drivers/usb/serial/io_ti
+drivers/usb/serial/ipaq
+drivers/usb/serial/ipw
+drivers/usb/serial/ir-usb
+drivers/usb/serial/iuu_phoenix
+drivers/usb/serial/keyspan
+drivers/usb/serial/keyspan_pda
+drivers/usb/serial/kl5kusb105
+drivers/usb/serial/kobil_sct
+drivers/usb/serial/mct_u232
+drivers/usb/serial/metro-usb no
+drivers/usb/serial/mos7720
+drivers/usb/serial/mos7840
+drivers/usb/serial/mxuport
+drivers/usb/serial/navman
+drivers/usb/serial/omninet
+drivers/usb/serial/opticon
+drivers/usb/serial/option
+drivers/usb/serial/oti6858
+drivers/usb/serial/pl2303
+drivers/usb/serial/qcaux
+drivers/usb/serial/qcserial
+drivers/usb/serial/quatech2
+drivers/usb/serial/safe_serial
+drivers/usb/serial/sierra
+drivers/usb/serial/spcp8x5
+drivers/usb/serial/ssu100
+drivers/usb/serial/symbolserial
+drivers/usb/serial/ti_usb_3410_5052
+drivers/usb/serial/usb-serial-simple
+drivers/usb/serial/usb_debug
+drivers/usb/serial/usb_wwan
+drivers/usb/serial/usbserial
+drivers/usb/serial/visor
+drivers/usb/serial/whiteheat
+drivers/usb/serial/wishbone-serial no
+drivers/usb/serial/xsens_mt no
+drivers/usb/serial/zte_ev
+drivers/usb/storage/uas
+drivers/usb/usbip/vhci-hcd
+drivers/usb/usbip/usbip-core
+drivers/usb/usbip/usbip-host
+drivers/usb/storage/ums-alauda
+drivers/usb/storage/ums-cypress
+drivers/usb/storage/ums-datafab
+drivers/usb/storage/ums-eneub6250
+drivers/usb/storage/ums-freecom
+drivers/usb/storage/ums-isd200
+drivers/usb/storage/ums-jumpshot
+drivers/usb/storage/ums-karma
+drivers/usb/storage/ums-onetouch
+drivers/usb/storage/ums-realtek
+drivers/usb/storage/ums-sddr09
+drivers/usb/storage/ums-sddr55
+drivers/usb/storage/ums-usbat
+drivers/usb/storage/usb-storage
+drivers/usb/wusbcore/wusb-cbaf no
+drivers/usb/wusbcore/wusb-wa no
+drivers/usb/wusbcore/wusbcore no
+drivers/vfio/pci/vfio-pci
+drivers/vfio/vfio
+drivers/vfio/vfio_iommu_spapr_tce
+drivers/vfio/vfio_iommu_type1
+drivers/vfio/vfio_spapr_eeh
+drivers/vfio/vfio_virqfd
+drivers/vhost/vhost
+drivers/vhost/vhost_net
+drivers/vhost/vhost_scsi
+drivers/vhost/vringh
+drivers/video/backlight/adp8860_bl no
+drivers/video/backlight/adp8870_bl no
+drivers/video/backlight/apple_bl
+drivers/video/backlight/backlight
+drivers/video/backlight/generic_bl
+drivers/video/backlight/kb3886_bl no
+drivers/video/backlight/lcd
+drivers/video/backlight/lm3630a_bl no
+drivers/video/backlight/platform_lcd
+drivers/video/backlight/pm8941-wled no
+drivers/video/cfbcopyarea
+drivers/video/cfbfillrect
+drivers/video/cfbimgblt
+drivers/video/fbdev/xen-fbfront
+drivers/video/fbdev/gxt4500 no
+drivers/video/fbdev/ocfb no
+drivers/video/fb_sys_fops
+drivers/video/hyperv_fb external
+drivers/video/macmodes
+drivers/video/syscopyarea
+drivers/video/sysfillrect
+drivers/video/sysimgblt
+drivers/video/uvesafb
+drivers/video/vfb
+drivers/virtio/virtio
+drivers/virtio/virtio_balloon
+drivers/virtio/virtio_input
+drivers/virtio/virtio_mmio
+drivers/virtio/virtio_pci
+drivers/virtio/virtio_ring
+drivers/watchdog/acquirewdt
+drivers/watchdog/advantechwdt
+drivers/watchdog/alim1535_wdt
+drivers/watchdog/alim7101_wdt
+drivers/watchdog/bcm2835_wdt
+drivers/watchdog/cadence_wdt
+drivers/watchdog/cpu5wdt
+drivers/watchdog/da9062_wdt no
+drivers/watchdog/diag288_wdt
+drivers/watchdog/eurotechwdt
+drivers/watchdog/f71808e_wdt no
+drivers/watchdog/gpio_wdt no
+drivers/watchdog/hpwdt
+drivers/watchdog/i6300esb
+drivers/watchdog/iTCO_vendor_support
+drivers/watchdog/iTCO_wdt
+drivers/watchdog/ib700wdt
+drivers/watchdog/ibmasr
+drivers/watchdog/imx2_wdt
+drivers/watchdog/it8712f_wdt
+drivers/watchdog/it87_wdt no
+drivers/watchdog/machzwd
+drivers/watchdog/mena21_wdt no
+drivers/watchdog/mtk_wdt no
+drivers/watchdog/nv_tco no
+drivers/watchdog/of_xilinx_wdt
+drivers/watchdog/pc87413_wdt
+drivers/watchdog/pcwd_pci
+drivers/watchdog/pcwd_usb
+drivers/watchdog/s3c2410_wdt no
+drivers/watchdog/sbc60xxwdt
+drivers/watchdog/sbc_epx_c3 no
+drivers/watchdog/sbc_fitpc2_wdt no
+drivers/watchdog/sbsa_gwdt
+drivers/watchdog/sc1200wdt
+drivers/watchdog/sch311x_wdt no
+drivers/watchdog/smsc37b787_wdt
+drivers/watchdog/softdog
+drivers/watchdog/sp5100_tco no
+drivers/watchdog/tegra_wdt no
+drivers/watchdog/w83627hf_wdt
+drivers/watchdog/w83697hf_wdt
+drivers/watchdog/w83877f_wdt
+drivers/watchdog/w83977f_wdt
+drivers/watchdog/wafer5823wdt
+drivers/watchdog/wdrtas no
+drivers/watchdog/wdt_pci
+drivers/watchdog/xen_wdt
+drivers/xen/blkback/blkback-pagemap
+drivers/xen/blkback/blkbk
+drivers/xen/blkfront/xenblk
+drivers/xen/blktap/blktap no
+drivers/xen/blktap2-new/xen-blktap
+drivers/xen/blktap2/blktap2
+drivers/xen/core/domctl
+drivers/xen/evtchn
+drivers/xen/gntdev/gntdev
+drivers/xen/netback/netbk
+drivers/xen/netfront/xennet
+drivers/xen/scsiback/xen-scsibk
+drivers/xen/scsifront/xenscsi
+drivers/xen/sfc_netfront/sfc_netfront external
+drivers/xen/sfc_netutil/sfc_netutil external
+drivers/xen/tmem no
+drivers/xen/tpmback/tpmbk
+drivers/xen/usbback/usbbk
+drivers/xen/usbfront/xen-hcd
+drivers/xen/xen-pciback/pciback
+drivers/xen/xen-acpi-processor
+drivers/xen/xen-evtchn
+drivers/xen/xen-gntalloc
+drivers/xen/xen-gntdev
+drivers/xen/xen-pciback/xen-pciback
+drivers/xen/xen-privcmd
+drivers/xen/xen-scsiback
+drivers/xen/xenbus/xenbus_be
+drivers/xen/xenfs/xenfs
+fs/9p/9p
+fs/autofs4/autofs4
+fs/binfmt_misc
+fs/btrfs/btrfs
+fs/cachefiles/cachefiles
+fs/ceph
+fs/cifs/cifs
+fs/configfs/configfs
+fs/cramfs/cramfs
+fs/dlm/dlm
+fs/dmapi/dmapi
+fs/ecryptfs/ecryptfs
+fs/efivarfs/efivarfs
+fs/exofs/libore
+fs/exportfs/exportfs
+fs/ext4/ext4
+fs/fat/fat
+fs/fat/msdos
+fs/fat/vfat
+fs/fscache/fscache
+fs/fuse/cuse no
+fs/fuse/fuse
+fs/gfs2/gfs2
+fs/hfsplus/hfsplus
+fs/isofs/isofs
+fs/jbd2/jbd2
+fs/lockd/lockd
+fs/logfs/logfs no
+fs/mbcache
+fs/ncpfs/ncpfs
+fs/nfs/blocklayout/blocklayoutdriver
+fs/nfs/flexfilelayout/nfs_layout_flexfiles
+fs/nfs/nfs
+fs/nfs/nfs_layout_nfsv41_files
+fs/nfs/nfsv2
+fs/nfs/nfsv3
+fs/nfs/nfsv4
+fs/nfs/objlayout/objlayoutdriver
+fs/nfs_common/grace
+fs/nfs_common/nfs_acl
+fs/nfsd/nfsd
+fs/nls/mac-celtic
+fs/nls/mac-centeuro
+fs/nls/mac-croatian
+fs/nls/mac-cyrillic
+fs/nls/mac-gaelic
+fs/nls/mac-greek
+fs/nls/mac-iceland
+fs/nls/mac-inuit
+fs/nls/mac-roman
+fs/nls/mac-romanian
+fs/nls/mac-turkish
+fs/nls/nls_ascii
+fs/nls/nls_base
+fs/nls/nls_cp1250
+fs/nls/nls_cp1251
+fs/nls/nls_cp1255
+fs/nls/nls_cp437
+fs/nls/nls_cp737
+fs/nls/nls_cp775
+fs/nls/nls_cp850
+fs/nls/nls_cp852
+fs/nls/nls_cp855
+fs/nls/nls_cp857
+fs/nls/nls_cp860
+fs/nls/nls_cp861
+fs/nls/nls_cp862
+fs/nls/nls_cp863
+fs/nls/nls_cp864
+fs/nls/nls_cp865
+fs/nls/nls_cp866
+fs/nls/nls_cp869
+fs/nls/nls_cp874
+fs/nls/nls_cp932
+fs/nls/nls_cp936
+fs/nls/nls_cp949
+fs/nls/nls_cp950
+fs/nls/nls_euc-jp
+fs/nls/nls_iso8859-1
+fs/nls/nls_iso8859-13
+fs/nls/nls_iso8859-14
+fs/nls/nls_iso8859-15
+fs/nls/nls_iso8859-2
+fs/nls/nls_iso8859-3
+fs/nls/nls_iso8859-4
+fs/nls/nls_iso8859-5
+fs/nls/nls_iso8859-6
+fs/nls/nls_iso8859-7
+fs/nls/nls_iso8859-9
+fs/nls/nls_koi8-r
+fs/nls/nls_koi8-ru
+fs/nls/nls_koi8-u
+fs/nls/nls_utf8
+fs/ocfs2/cluster/ocfs2_nodemanager
+fs/ocfs2/dlm/ocfs2_dlm
+fs/ocfs2/dlmfs/ocfs2_dlmfs
+fs/ocfs2/ocfs2
+fs/ocfs2/ocfs2_stack_o2cb
+fs/ocfs2/ocfs2_stack_user
+fs/ocfs2/ocfs2_stackglue
+fs/overlayfs/overlay
+fs/pstore/ramoops
+fs/quota/quota_tree
+fs/quota/quota_v1
+fs/quota/quota_v2
+fs/reiserfs/reiserfs
+fs/squashfs/squashfs
+fs/squashfs3/squashfs3
+fs/udf/udf
+fs/ufs/ufs
+fs/xfs/dmapi/xfs_dmapi
+fs/xfs/xfs
+kernel/rcu/rcutorture no
+kernel/torture no
+lib/842/842_decompress
+lib/asn1_decoder
+lib/bch
+lib/cordic
+lib/crc-ccitt
+lib/crc-itu-t
+lib/crc-t10dif
+lib/crc64
+lib/crc16
+lib/crc7
+lib/crc8
+lib/libcrc32c
+lib/lz4/lz4_decompress
+lib/lz4/lz4_compress
+lib/lzo/lzo_compress
+lib/lzo/lzo_decompress
+lib/mpi/mpi
+lib/oid_registry
+lib/raid6/raid6_pq
+lib/reed_solomon/reed_solomon
+lib/ts_bm
+lib/ts_fsm
+lib/ts_kmp
+lib/zlib_deflate/zlib_deflate
+crypto/842
+lib/842/842_compress
+lib/test_module
+lib/test_sysctl
+mm/hwpoison-inject
+net/6lowpan/* no
+net/802/fddi
+net/802/garp
+net/802/mrp
+net/802/p8022
+net/802/p8023
+net/802/psnap
+net/802/stp
+net/8021q/8021q
+net/9p/9pnet
+net/9p/9pnet_rdma no
+net/9p/9pnet_virtio
+net/atm/atm
+net/atm/* no
+net/bluetooth/bluetooth
+net/bluetooth/bluetooth_6lowpan no
+net/bluetooth/bnep/bnep
+net/bluetooth/cmtp/cmtp
+net/bluetooth/hidp/hidp
+net/bluetooth/rfcomm/rfcomm
+net/bridge/br_netfilter
+net/bridge/bridge
+net/bridge/netfilter/ebt_802_3
+net/bridge/netfilter/ebt_among
+net/bridge/netfilter/ebt_arp
+net/bridge/netfilter/ebt_arpreply
+net/bridge/netfilter/ebt_dnat
+net/bridge/netfilter/ebt_ip
+net/bridge/netfilter/ebt_ip6
+net/bridge/netfilter/ebt_limit
+net/bridge/netfilter/ebt_log
+net/bridge/netfilter/ebt_mark
+net/bridge/netfilter/ebt_mark_m
+net/bridge/netfilter/ebt_nflog
+net/bridge/netfilter/ebt_pkttype
+net/bridge/netfilter/ebt_redirect
+net/bridge/netfilter/ebt_snat
+net/bridge/netfilter/ebt_stp
+net/bridge/netfilter/ebt_vlan
+net/bridge/netfilter/ebtable_broute
+net/bridge/netfilter/ebtable_filter
+net/bridge/netfilter/ebtable_nat
+net/bridge/netfilter/ebtables
+net/bridge/netfilter/nf_log_bridge no
+net/bridge/netfilter/nf_tables_bridge no
+net/bridge/netfilter/nft_meta_bridge no
+net/bridge/netfilter/nft_reject_bridge no
+net/can/can
+net/can/can-bcm
+net/can/can-gw
+net/can/can-raw
+net/ceph/libceph
+net/core/devlink
+net/core/drop_monitor
+net/core/pktgen
+net/dns_resolver/dns_resolver
+net/dsa/* no
+net/hsr/hsr no
+net/ipv4/ah4
+net/ipv4/esp4
+net/ipv4/fou no
+net/ipv4/gre
+net/ipv4/inet_diag
+net/ipv4/inet_lro
+net/ipv4/ip_gre
+net/ipv4/ip_tunnel
+net/ipv4/ip_vti
+net/ipv4/ipcomp
+net/ipv4/ipip
+net/ipv4/netfilter/arp_tables
+net/ipv4/netfilter/arpt_mangle
+net/ipv4/netfilter/arptable_filter
+net/ipv4/netfilter/ip_tables
+net/ipv4/netfilter/ipt_CLUSTERIP
+net/ipv4/netfilter/ipt_ECN
+net/ipv4/netfilter/ipt_MASQUERADE
+net/ipv4/netfilter/ipt_REJECT
+net/ipv4/netfilter/ipt_SYNPROXY
+net/ipv4/netfilter/ipt_ah
+net/ipv4/netfilter/ipt_rpfilter
+net/ipv4/netfilter/iptable_filter
+net/ipv4/netfilter/iptable_mangle
+net/ipv4/netfilter/iptable_nat
+net/ipv4/netfilter/iptable_raw
+net/ipv4/netfilter/iptable_security
+net/ipv4/netfilter/nf_conntrack_ipv4
+net/ipv4/netfilter/nf_defrag_ipv4
+net/ipv4/netfilter/nf_dup_ipv4
+net/ipv4/netfilter/nf_log_arp
+net/ipv4/netfilter/nf_log_ipv4
+net/ipv4/netfilter/nf_nat_h323
+net/ipv4/netfilter/nf_nat_ipv4
+net/ipv4/netfilter/nf_nat_masquerade_ipv4
+net/ipv4/netfilter/nf_nat_pptp
+net/ipv4/netfilter/nf_nat_proto_gre
+net/ipv4/netfilter/nf_nat_snmp_basic
+net/ipv4/netfilter/nf_tables_arp no
+net/ipv4/netfilter/nf_tables_ipv4 no
+net/ipv4/netfilter/nft_chain_nat_ipv4 no
+net/ipv4/netfilter/nft_chain_route_ipv4 no
+net/ipv4/netfilter/nft_dup_ipv4 no
+net/ipv4/netfilter/nft_masq_ipv4 no
+net/ipv4/netfilter/nft_redir_ipv4 no
+net/ipv4/netfilter/nft_reject_ipv4 no
+net/ipv4/tcp_bic no
+net/ipv4/tcp_cdg no
+net/ipv4/tcp_dctcp no
+net/ipv4/tcp_diag
+net/ipv4/tcp_highspeed no
+net/ipv4/tcp_htcp no
+net/ipv4/tcp_hybla no
+net/ipv4/tcp_illinois
+net/ipv4/tcp_lp
+net/ipv4/tcp_probe
+net/ipv4/tcp_scalable no
+net/ipv4/tcp_vegas no
+net/ipv4/tcp_veno
+net/ipv4/tcp_westwood
+net/ipv4/tcp_yeah no
+net/ipv4/tunnel4
+net/ipv4/udp_diag
+net/ipv4/udp_tunnel
+net/ipv4/xfrm4_mode_beet
+net/ipv4/xfrm4_mode_transport
+net/ipv4/xfrm4_mode_tunnel
+net/ipv4/xfrm4_tunnel
+net/ipv6/ah6
+net/ipv6/esp6
+net/ipv6/ila no
+net/ipv6/ip6_gre
+net/ipv6/ip6_tunnel
+net/ipv6/ip6_udp_tunnel
+net/ipv6/ip6_vti no
+net/ipv6/ipcomp6
+net/ipv6/mip6
+net/ipv6/netfilter/ip6_tables
+net/ipv6/netfilter/ip6t_MASQUERADE
+net/ipv6/netfilter/ip6t_NPT
+net/ipv6/netfilter/ip6t_REJECT
+net/ipv6/netfilter/ip6t_SYNPROXY
+net/ipv6/netfilter/ip6t_ah
+net/ipv6/netfilter/ip6t_eui64
+net/ipv6/netfilter/ip6t_frag
+net/ipv6/netfilter/ip6t_hbh
+net/ipv6/netfilter/ip6t_ipv6header
+net/ipv6/netfilter/ip6t_mh
+net/ipv6/netfilter/ip6t_rpfilter
+net/ipv6/netfilter/ip6t_rt
+net/ipv6/netfilter/ip6table_filter
+net/ipv6/netfilter/ip6table_mangle
+net/ipv6/netfilter/ip6table_nat
+net/ipv6/netfilter/ip6table_raw
+net/ipv6/netfilter/ip6table_security
+net/ipv6/netfilter/nf_conntrack_ipv6
+net/ipv6/netfilter/nf_defrag_ipv6
+net/ipv6/netfilter/nf_dup_ipv6
+net/ipv6/netfilter/nf_log_ipv6
+net/ipv6/netfilter/nf_nat_ipv6
+net/ipv6/netfilter/nf_nat_masquerade_ipv6
+net/ipv6/netfilter/nf_tables_ipv6 no
+net/ipv6/netfilter/nft_chain_nat_ipv6 no
+net/ipv6/netfilter/nft_chain_route_ipv6 no
+net/ipv6/netfilter/nft_dup_ipv6 no
+net/ipv6/netfilter/nft_masq_ipv6 no
+net/ipv6/netfilter/nft_redir_ipv6 no
+net/ipv6/netfilter/nft_reject_ipv6 no
+net/ipv6/sit
+net/ipv6/tunnel6
+net/ipv6/xfrm6_mode_beet
+net/ipv6/xfrm6_mode_ro
+net/ipv6/xfrm6_mode_transport
+net/ipv6/xfrm6_mode_tunnel
+net/ipv6/xfrm6_tunnel
+net/ipx/ipx
+net/irda/ircomm/ircomm
+net/irda/ircomm/ircomm-tty
+net/irda/irda
+net/irda/irlan/irlan
+net/irda/irnet/irnet
+net/iucv/af_iucv
+net/iucv/iucv
+net/key/af_key
+net/l2tp/l2tp_core
+net/l2tp/l2tp_debugfs
+net/l2tp/l2tp_eth
+net/l2tp/l2tp_ip
+net/l2tp/l2tp_ip6
+net/l2tp/l2tp_netlink
+net/l2tp/l2tp_ppp
+net/llc/llc
+net/mac80211/mac80211
+net/mpls/mpls_gso no
+net/mpls/mpls_iptunnel no
+net/mpls/mpls_router no
+net/netfilter/ipset/ip_set
+net/netfilter/ipset/ip_set_bitmap_ip
+net/netfilter/ipset/ip_set_bitmap_ipmac
+net/netfilter/ipset/ip_set_bitmap_port
+net/netfilter/ipset/ip_set_hash_ip
+net/netfilter/ipset/ip_set_hash_ipmark
+net/netfilter/ipset/ip_set_hash_ipport
+net/netfilter/ipset/ip_set_hash_ipportip
+net/netfilter/ipset/ip_set_hash_ipportnet
+net/netfilter/ipset/ip_set_hash_mac
+net/netfilter/ipset/ip_set_hash_net
+net/netfilter/ipset/ip_set_hash_netiface
+net/netfilter/ipset/ip_set_hash_netnet
+net/netfilter/ipset/ip_set_hash_netport
+net/netfilter/ipset/ip_set_hash_netportnet
+net/netfilter/ipset/ip_set_list_set
+net/netfilter/ipvs/ip_vs
+net/netfilter/ipvs/ip_vs_dh
+net/netfilter/ipvs/ip_vs_fo
+net/netfilter/ipvs/ip_vs_ftp
+net/netfilter/ipvs/ip_vs_lblc
+net/netfilter/ipvs/ip_vs_lblcr
+net/netfilter/ipvs/ip_vs_lc
+net/netfilter/ipvs/ip_vs_nq
+net/netfilter/ipvs/ip_vs_ovf
+net/netfilter/ipvs/ip_vs_pe_sip
+net/netfilter/ipvs/ip_vs_rr
+net/netfilter/ipvs/ip_vs_sed
+net/netfilter/ipvs/ip_vs_sh
+net/netfilter/ipvs/ip_vs_wlc
+net/netfilter/ipvs/ip_vs_wrr
+net/netfilter/nf_conntrack
+net/netfilter/nf_conntrack_amanda
+net/netfilter/nf_conntrack_broadcast
+net/netfilter/nf_conntrack_ftp
+net/netfilter/nf_conntrack_h323
+net/netfilter/nf_conntrack_irc
+net/netfilter/nf_conntrack_netbios_ns
+net/netfilter/nf_conntrack_netlink
+net/netfilter/nf_conntrack_pptp
+net/netfilter/nf_conntrack_proto_dccp
+net/netfilter/nf_conntrack_proto_gre
+net/netfilter/nf_conntrack_proto_sctp
+net/netfilter/nf_conntrack_proto_udplite
+net/netfilter/nf_conntrack_sane
+net/netfilter/nf_conntrack_sip
+net/netfilter/nf_conntrack_slp
+net/netfilter/nf_conntrack_snmp
+net/netfilter/nf_conntrack_tftp
+net/netfilter/nf_log_common
+net/netfilter/nf_nat
+net/netfilter/nf_nat_amanda
+net/netfilter/nf_nat_ftp
+net/netfilter/nf_nat_irc
+net/netfilter/nf_nat_proto_dccp
+net/netfilter/nf_nat_proto_sctp
+net/netfilter/nf_nat_proto_udplite
+net/netfilter/nf_nat_redirect
+net/netfilter/nf_nat_sip
+net/netfilter/nf_nat_tftp
+net/netfilter/nf_synproxy_core
+net/netfilter/nf_tables no
+net/netfilter/nf_tables_inet no
+net/netfilter/nf_tables_netdev no
+net/netfilter/nfnetlink
+net/netfilter/nfnetlink_acct
+net/netfilter/nfnetlink_cthelper
+net/netfilter/nfnetlink_cttimeout
+net/netfilter/nfnetlink_log
+net/netfilter/nfnetlink_queue
+net/netfilter/nft_compat no
+net/netfilter/nft_counter no
+net/netfilter/nft_ct no
+net/netfilter/nft_exthdr no
+net/netfilter/nft_hash no
+net/netfilter/nft_limit no
+net/netfilter/nft_log no
+net/netfilter/nft_masq no
+net/netfilter/nft_meta no
+net/netfilter/nft_nat no
+net/netfilter/nft_queue no
+net/netfilter/nft_rbtree no
+net/netfilter/nft_redir no
+net/netfilter/nft_reject no
+net/netfilter/nft_reject_inet no
+net/netfilter/x_tables
+net/netfilter/xt_AUDIT
+net/netfilter/xt_CHECKSUM
+net/netfilter/xt_CLASSIFY
+net/netfilter/xt_CONNSECMARK
+net/netfilter/xt_CT
+net/netfilter/xt_DSCP
+net/netfilter/xt_HL
+net/netfilter/xt_HMARK
+net/netfilter/xt_IDLETIMER
+net/netfilter/xt_LED
+net/netfilter/xt_LOG
+net/netfilter/xt_NETMAP
+net/netfilter/xt_NFLOG
+net/netfilter/xt_NFQUEUE
+net/netfilter/xt_RATEEST
+net/netfilter/xt_REDIRECT
+net/netfilter/xt_SECMARK
+net/netfilter/xt_TCPMSS
+net/netfilter/xt_TCPOPTSTRIP
+net/netfilter/xt_TEE
+net/netfilter/xt_TPROXY
+net/netfilter/xt_TRACE
+net/netfilter/xt_addrtype
+net/netfilter/xt_bpf
+net/netfilter/xt_cgroup
+net/netfilter/xt_cluster
+net/netfilter/xt_comment
+net/netfilter/xt_connbytes
+net/netfilter/xt_connlabel
+net/netfilter/xt_connlimit
+net/netfilter/xt_connmark
+net/netfilter/xt_conntrack
+net/netfilter/xt_cpu
+net/netfilter/xt_dccp
+net/netfilter/xt_devgroup
+net/netfilter/xt_dscp
+net/netfilter/xt_ecn
+net/netfilter/xt_esp
+net/netfilter/xt_hashlimit
+net/netfilter/xt_helper
+net/netfilter/xt_hl
+net/netfilter/xt_ipcomp
+net/netfilter/xt_iprange
+net/netfilter/xt_ipvs
+net/netfilter/xt_l2tp
+net/netfilter/xt_length
+net/netfilter/xt_limit
+net/netfilter/xt_mac
+net/netfilter/xt_mark
+net/netfilter/xt_multiport
+net/netfilter/xt_nat
+net/netfilter/xt_nfacct
+net/netfilter/xt_osf
+net/netfilter/xt_owner
+net/netfilter/xt_physdev
+net/netfilter/xt_pkttype
+net/netfilter/xt_policy
+net/netfilter/xt_quota
+net/netfilter/xt_rateest
+net/netfilter/xt_realm
+net/netfilter/xt_recent
+net/netfilter/xt_sctp
+net/netfilter/xt_set
+net/netfilter/xt_socket
+net/netfilter/xt_state
+net/netfilter/xt_statistic
+net/netfilter/xt_string
+net/netfilter/xt_tcpmss
+net/netfilter/xt_tcpudp
+net/netfilter/xt_time
+net/netfilter/xt_u32
+net/netlink/netlink_diag
+net/nfc/hci/hci
+net/nfc/nci/nci no
+net/nfc/nci/nci_uart no
+net/nfc/nfc
+net/nfc/nfc_digital no
+net/openvswitch/openvswitch
+net/openvswitch/vport-geneve
+net/openvswitch/vport-gre
+net/openvswitch/vport-vxlan
+net/packet/af_packet
+net/packet/af_packet_diag
+net/rds/rds
+net/rds/rds_rdma
+net/rds/rds_tcp
+net/rfkill/rfkill
+net/rfkill/rfkill-gpio
+net/sched/act_bpf
+net/sched/act_connmark
+net/sched/act_vlan
+net/sched/act_csum
+net/sched/act_gact
+net/sched/act_ipt
+net/sched/act_mirred
+net/sched/act_nat
+net/sched/act_pedit
+net/sched/act_police
+net/sched/act_simple
+net/sched/act_skbedit
+net/sched/cls_basic
+net/sched/cls_bpf
+net/sched/cls_cgroup
+net/sched/cls_flow
+net/sched/cls_flower
+net/sched/cls_fw
+net/sched/cls_route
+net/sched/cls_rsvp
+net/sched/cls_rsvp6
+net/sched/cls_tcindex
+net/sched/cls_u32
+net/sched/em_canid
+net/sched/em_cmp
+net/sched/em_ipset
+net/sched/em_meta
+net/sched/em_nbyte
+net/sched/em_text
+net/sched/em_u32
+net/sched/sch_atm
+net/sched/sch_cbq
+net/sched/sch_choke
+net/sched/sch_codel
+net/sched/sch_drr
+net/sched/sch_dsmark
+net/sched/sch_fq
+net/sched/sch_fq_codel
+net/sched/sch_gred
+net/sched/sch_hfsc
+net/sched/sch_hhf
+net/sched/sch_htb
+net/sched/sch_ingress
+net/sched/sch_mqprio
+net/sched/sch_multiq
+net/sched/sch_netem
+net/sched/sch_pie
+net/sched/sch_plug
+net/sched/sch_prio
+net/sched/sch_qfq
+net/sched/sch_red
+net/sched/sch_sfb
+net/sched/sch_sfq
+net/sched/sch_tbf
+net/sched/sch_teql
+net/sctp/sctp
+net/sctp/sctp_probe
+net/smc/smc
+net/smc/smc_diag
+net/sunrpc/auth_gss/auth_rpcgss
+net/sunrpc/auth_gss/rpcsec_gss_krb5
+net/sunrpc/sunrpc
+net/sunrpc/xprtrdma/rpcrdma
+net/tipc/tipc external
+net/unix/unix_diag
+net/vmw_vsock/vmw_vsock_vmci_transport
+net/vmw_vsock/vsock
+net/wireless/cfg80211
+net/wireless/lib80211
+net/wireless/lib80211_crypt_ccmp
+net/wireless/lib80211_crypt_tkip
+net/wireless/lib80211_crypt_wep
+net/xfrm/xfrm_algo
+net/xfrm/xfrm_ipcomp
+net/xfrm/xfrm_user
+security/keys/encrypted-keys/encrypted-keys
+security/keys/trusted
+sound/ac97_bus
+sound/core/*
+sound/drivers/*
+sound/firewire/*
+sound/hda/*
+sound/i2c/*
+sound/isa/sb/snd-sb-common no
+sound/pci/lx6464es/snd-lx6464es no
+sound/pci/riptide/snd-riptide no
+sound/pci/snd-als4000 no
+sound/pci/*
+sound/soc/codecs/*
+sound/soc/intel/*
+sound/soc/*.ko
+sound/soundcore
+sound/synth/*
+sound/usb/6fire/snd-usb-6fire no
+sound/usb/*
+virt/lib/irqbypass
